@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+/*Header*/
+.headBaner {
+  width: 100%;
+  padding-left: 15px;
+  /*border: 5px solid black;
+  margin-right: auto;
+  margin-left: auto;*/
+  align-items: center;
+  justify-content: center;
+}
