@@ -9,17 +9,22 @@ const Header = () => {
     const [playStationOpen, setPlayStationOpen] = useState(false);
     const [xBoxOpen, setXBoxOpen] = useState(false);
     return(
-        <Navbar dark color='danger'  >
+        <Navbar dark color='success'  >
             <Col >
                 <NavbarBrand>
-                    <h1>TEST</h1>
+                    <h1>Spencer K. Video Game Collection</h1>
                 </NavbarBrand>
                 {/*Template*/}
-                <Button onClick={() => {setAtariOpen(!atariOpen); setNintendoOpen(false); setSegaOpen(false); setPlayStationOpen(false); setXBoxOpen(false)}}>Atari</Button>
-                <Button onClick={() => {setNintendoOpen(!nintendoOpen); setAtariOpen(false); setSegaOpen(false); setPlayStationOpen(false); setXBoxOpen(false)}}>Nintendo</Button>
-                <Button onClick={() => {setSegaOpen(!segaOpen); setAtariOpen(false); setNintendoOpen(false); setPlayStationOpen(false); setXBoxOpen(false)}}>Sega</Button>
-                <Button onClick={() => {setPlayStationOpen(!playStationOpen); setAtariOpen(false); setNintendoOpen(false); setSegaOpen(false); setXBoxOpen(false)}}>Play Station</Button>
-                <Button onClick={() => {setXBoxOpen(!xBoxOpen); setAtariOpen(false); setNintendoOpen(false); setSegaOpen(false); setPlayStationOpen(false)}}>Xbox</Button>
+                <Button className='butt' onClick={() => {setAtariOpen(!atariOpen); setNintendoOpen(false); setSegaOpen(false); 
+                                        setPlayStationOpen(false); setXBoxOpen(false)}}>Atari</Button>
+                <Button className='butt' onClick={() => {setNintendoOpen(!nintendoOpen); setAtariOpen(false); setSegaOpen(false); 
+                                        setPlayStationOpen(false); setXBoxOpen(false)}}>Nintendo</Button>
+                <Button className='butt' onClick={() => {setSegaOpen(!segaOpen); setAtariOpen(false); setNintendoOpen(false); 
+                                        setPlayStationOpen(false); setXBoxOpen(false)}}>Sega</Button>
+                <Button className='butt' onClick={() => {setPlayStationOpen(!playStationOpen); setAtariOpen(false); setNintendoOpen(false); 
+                                        setSegaOpen(false); setXBoxOpen(false)}}>Play Station</Button>
+                <Button className='butt' onClick={() => {setXBoxOpen(!xBoxOpen); setAtariOpen(false); setNintendoOpen(false); 
+                                        setSegaOpen(false); setPlayStationOpen(false)}}>Xbox</Button>
 
                 <Collapse isOpen={nintendoOpen} navbar>
                     <Nav navbar>

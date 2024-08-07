@@ -47,3 +47,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.outline{
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.butt {
+  margin:15px;
+}
