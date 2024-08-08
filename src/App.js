@@ -19,6 +19,7 @@ import PS5Page from './pages/sony/ps5Page';
 import XboxPage from './pages/microsoft/xboxPage';
 import Xbox360Page from './pages/microsoft/xbox360Page';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path='xbox' element={<XboxPage/>}/>
         <Route path='xbox360' element={<Xbox360Page/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }

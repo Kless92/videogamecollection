@@ -47,6 +47,18 @@
   align-items: center;
   justify-content: center;
 }
+/*Footer*/
+.snapFooter{
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+/*Screen Content 'still exparmental'*/
+.contentContainer{
+  min-height: calc(100vh - 34px);
+}
+
 
 .outline{
   -webkit-text-fill-color: white;

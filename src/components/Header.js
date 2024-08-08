@@ -9,7 +9,7 @@ const Header = () => {
     const [playStationOpen, setPlayStationOpen] = useState(false);
     const [xBoxOpen, setXBoxOpen] = useState(false);
     return(
-        <Navbar dark color='success'  >
+        <Navbar dark color='danger'  >
             <Col >
                 <NavbarBrand>
                     <h1>Spencer K. Video Game Collection</h1>
