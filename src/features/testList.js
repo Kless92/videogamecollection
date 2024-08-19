@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { selectAllTest, selectOnConsole } from "./testSlice";
 import { Col, Row, Table } from "reactstrap";
-
+import GameDisplay from "../app/display/GameDisplay";
 const testList = () => {
     //Select all game from all consoles
     /*
@@ -25,8 +25,8 @@ const testList = () => {
                 )
             })}
         </>
-    );*/
-    const a = selectOnConsole('nes');
+    );*/    
+    /*const a = selectOnConsole('nes');
     const{id, console, name, image, genre} = a;
     return (
         <>
@@ -42,7 +42,24 @@ const testList = () => {
                 </Row>
             </Table>
         </>
-    );
+    );*/ 
+    /*const a = selectOnConsole('nes');
+    for (let i=0; i < a.length; i++){
+
+    return (
+        <>
+        <h1>{i}</h1>
+            <GameDisplay items={a[i]}/>
+        </>
+    ); 
+}*/
+
+const a = selectOnConsole('nes');
+const rows = []
+for (let i=0; i < a.length; i++){
+    rows.push(GameDisplay(a[i]));
+}
+ return rows
 };
 
 export default testList;
