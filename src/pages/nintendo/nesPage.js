@@ -1,7 +1,5 @@
 import { Container } from "reactstrap";
-import TestList from "../../features/testList";
-
-
+import TestList from "../../features/Testing/TestList";
 
 const NesPage = () => {
     return (

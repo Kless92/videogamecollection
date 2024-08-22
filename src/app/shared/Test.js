@@ -1,5 +1,5 @@
-import nintendoLogo from '../images/nintendoLogo.png';
-import segaLogo from '../images/segaLogo.png';
+import nintendoLogo from "../assets/images/nintendoLogo.png";
+import segaLogo from "../assets/images/segaLogo.png";
 
 export const Test = [
     {
