@@ -20,7 +20,7 @@ import XboxPage from './pages/microsoft/xboxPage';
 import Xbox360Page from './pages/microsoft/xbox360Page';
 import Header from './components/Header';
 import Footer from './components/Footer';
-
+import Discription from './features/Display/Discription';
 function App() {
   return (
     <div className="App">
@@ -28,6 +28,7 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage/>}/>
         <Route path='nes' element={<NesPage/>}/>
+        <Route path='nes/:gameId' element={<Discription/>}/>
         <Route path='snes' element={<SnesPage/>}/>
         <Route path='n64' element={<N64Page/>}/>
         <Route path='gamecube' element={<GamecubePage/>}/>
@@ -44,6 +45,7 @@ function App() {
         <Route path='ps5' element={<PS5Page/>}/>
         <Route path='xbox' element={<XboxPage/>}/>
         <Route path='xbox360' element={<Xbox360Page/>}/>
+        
       </Routes>
       <Footer/>
     </div>

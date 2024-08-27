@@ -1,14 +1,17 @@
 import { Col, Row, Table } from "reactstrap";
-
-const GameDisplay = (items) => {
+import { NavLink, Route, Routes, Link } from 'react-router-dom';
+const GameDisplay = ({items}) => {
     const { id, name, image, genre } = items;
     return (
         <Col>
-            <img src={image} alt={name} />
-            <br />
-            {name}
-            <br />
-            {genre}
+
+            <Link to={`${id}`}>
+                <img src={image} alt={name} />
+            </Link>
+                <br />
+                {name}
+                <br />
+                {genre}
         </Col>
     )
 };

@@ -1,6 +1,7 @@
 import { Container } from "reactstrap";
 import NesList from "../../features/Nintendo/NesList";
 
+
 const NesPage = () => {
     return (
         <Container>
