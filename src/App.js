@@ -6,9 +6,9 @@ import SnesPage from './pages/nintendo/snesPage';
 import N64Page from './pages/nintendo/n64Page';
 import GamecubePage from './pages/nintendo/gamecubePage';
 import WiiPage from './pages/nintendo/wiiPage';
-import WiiUPage from'./pages/nintendo/wiiUPage';
-import SwitchPage from'./pages/nintendo/switchPage';
-import Atari2600Page from'./pages/atari/atari2600Page';
+import WiiUPage from './pages/nintendo/wiiUPage';
+import SwitchPage from './pages/nintendo/switchPage';
+import Atari2600Page from './pages/atari/atari2600Page';
 import GenesisPage from './pages/sega/genesisPage';
 import DreamCastPage from './pages/sega/dreamcastPage';
 import PS1Page from './pages/sony/ps1Page';
@@ -21,33 +21,37 @@ import Xbox360Page from './pages/microsoft/xbox360Page';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Discription from './features/Display/Discription';
+import NesDiscription from './features/Nintendo/NesDiscription';
+import SnesDiscription from './features/Nintendo/SnesDiscription';
+
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <Routes>
-        <Route path='/' element={<HomePage/>}/>
-        <Route path='nes' element={<NesPage/>}/>
-        <Route path='nes/:gameId' element={<Discription/>}/>
-        <Route path='snes' element={<SnesPage/>}/>
-        <Route path='n64' element={<N64Page/>}/>
-        <Route path='gamecube' element={<GamecubePage/>}/>
-        <Route path='wii' element={<WiiPage/>}/>
-        <Route path='wiiu' element={<WiiUPage/>}/>
-        <Route path='switch' element={<SwitchPage/>}/>
-        <Route path='atari2600' element={<Atari2600Page/>}/>
-        <Route path='gensis' element={<GenesisPage/>}/>
-        <Route path='dreamcast' element={<DreamCastPage/>}/>
-        <Route path='ps1' element={<PS1Page/>}/>
-        <Route path='ps2' element={<PS2Page/>}/>
-        <Route path='ps3' element={<PS3Page/>}/>
-        <Route path='ps4' element={<PS4Page/>}/>
-        <Route path='ps5' element={<PS5Page/>}/>
-        <Route path='xbox' element={<XboxPage/>}/>
-        <Route path='xbox360' element={<Xbox360Page/>}/>
-        
+        <Route path='/' element={<HomePage />} />
+        <Route path='nes' element={<NesPage />} />
+        <Route path='nes/:gameId' element={<NesDiscription/>} />
+        <Route path='snes' element={<SnesPage />} />
+        <Route path='snes/:gameId' element={<SnesDiscription/>} />
+        <Route path='n64' element={<N64Page />} />
+        <Route path='gamecube' element={<GamecubePage />} />
+        <Route path='wii' element={<WiiPage />} />
+        <Route path='wiiu' element={<WiiUPage />} />
+        <Route path='switch' element={<SwitchPage />} />
+        <Route path='atari2600' element={<Atari2600Page />} />
+        <Route path='gensis' element={<GenesisPage />} />
+        <Route path='dreamcast' element={<DreamCastPage />} />
+        <Route path='ps1' element={<PS1Page />} />
+        <Route path='ps2' element={<PS2Page />} />
+        <Route path='ps3' element={<PS3Page />} />
+        <Route path='ps4' element={<PS4Page />} />
+        <Route path='ps5' element={<PS5Page />} />
+        <Route path='xbox' element={<XboxPage />} />
+        <Route path='xbox360' element={<Xbox360Page />} />
+
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
