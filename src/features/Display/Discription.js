@@ -13,7 +13,7 @@ const Discription = ({items}) => {
             <Row>
                 <Col sm='4'/>
                 <Col sm='2'>
-                    <img src={image} alt={name} />
+                    <img src={image} alt={name} className="shrink"/>
                 </Col>
                 <Col sm='1'>
                     <br/>

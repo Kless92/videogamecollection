@@ -4,9 +4,8 @@ const GameDisplay = ({items}) => {
     const { id, name, image, genre } = items;
     return (
         <Col>
-
             <Link to={`${id}`}>
-                <img src={image} alt={name} />
+                <img src={image} alt={name} className="shrink"/>
             </Link>
                 <br />
                 {name}

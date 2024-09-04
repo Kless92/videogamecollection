@@ -1,4 +1,4 @@
-import nintendoLogo from "../assets/images/nintendoLogo.png";
+import nintendoLogo from "../assets/images/Nintendo/nes.png";
 
 export const NES = [
     {
