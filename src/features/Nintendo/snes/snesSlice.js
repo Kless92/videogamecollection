@@ -1,4 +1,4 @@
-import { SNES } from "../../app/shared/SNESGAMES"
+import { SNES } from "../../../app/shared/SNESGAMES"
 
 export const selectAll = () => {
     return SNES;

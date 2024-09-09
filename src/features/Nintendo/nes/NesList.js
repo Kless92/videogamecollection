@@ -1,6 +1,6 @@
 import { selectAll } from "./nesSlice";
 import { Col, Row, Table } from "reactstrap";
-import GameDisplay from "../Display/GameDisplay";
+import GameDisplay from "../../Display/GameDisplay";
 
 const NesList = () => {
     const a = selectAll();
@@ -11,7 +11,7 @@ const NesList = () => {
                     {a.map((b) => {
                         return (
                             <Col>
-                                <GameDisplay items={b}/>
+                                <GameDisplay items={b} />
                             </Col>
                         )
                     })}

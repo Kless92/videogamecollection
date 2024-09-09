@@ -1,5 +1,5 @@
 import { Container } from "reactstrap";
-import SnesList from "../../features/Nintendo/SnesList";
+import SnesList from "../../features/Nintendo/snes/SnesList";
 
 const SnesPage = () => {
     return (

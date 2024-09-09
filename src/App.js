@@ -21,9 +21,10 @@ import Xbox360Page from './pages/microsoft/xbox360Page';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Discription from './features/Display/Discription';
-import NesDiscription from './features/Nintendo/NesDiscription';
-import SnesDiscription from './features/Nintendo/SnesDiscription';
-
+import NesDiscription from './features/Nintendo/nes/NesDiscription';
+import SnesDiscription from './features/Nintendo/snes/SnesDiscription';
+import N64Discription from './features/Nintendo/n64/N64Discription';
+import GamecubeDiscription from './features/Nintendo/gamecube/GamecubeDiscription';
 function App() {
   return (
     <div className="App">
@@ -35,7 +36,9 @@ function App() {
         <Route path='snes' element={<SnesPage />} />
         <Route path='snes/:gameId' element={<SnesDiscription/>} />
         <Route path='n64' element={<N64Page />} />
+        <Route path='n64/:gameId' element={<N64Discription/>}/>
         <Route path='gamecube' element={<GamecubePage />} />
+        <Route path='gamecube/:gameId' element={<GamecubeDiscription/>}/>
         <Route path='wii' element={<WiiPage />} />
         <Route path='wiiu' element={<WiiUPage />} />
         <Route path='switch' element={<SwitchPage />} />

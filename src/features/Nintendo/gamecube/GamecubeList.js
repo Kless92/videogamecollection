@@ -1,8 +1,8 @@
-import { selectAll } from "./snesSlice";
+import { selectAll } from "./gamecubeSlice";
 import { Col, Row, Table } from "reactstrap";
-import GameDisplay from "../Display/GameDisplay";
+import GameDisplay from "../../Display/GameDisplay";
 
-const SnesList = () => {
+const GamecubeList = () => {
     const a = selectAll();
     return (
         <Table>
@@ -11,7 +11,7 @@ const SnesList = () => {
                     {a.map((b) => {
                         return (
                             <Col>
-                                <GameDisplay items={b}/>
+                                <GameDisplay items={b} />
                             </Col>
                         )
                     })}
@@ -21,4 +21,4 @@ const SnesList = () => {
     )
 };
 
-export default SnesList;
+export default GamecubeList;

@@ -1,26 +1,26 @@
 import { Col, Row, Table } from "reactstrap";
-import {useParams} from "react-router-dom";
-import { selectNESById } from "../Nintendo/nesSlice";
+import { useParams } from "react-router-dom";
+import { selectNESById } from "../Nintendo/nes/nesSlice";
 
-const Discription = ({items}) => {
+const Discription = ({ items }) => {
     //const {gameId} = useParams();
     //const items = selectNESById(gameId);
-    const { name, image, genre, discription} = items
+    const { name, image, genre, discription } = items
 
     return (
-        
+
         <Table>
             <Row>
-                <Col sm='4'/>
+                <Col sm='4' />
                 <Col sm='2'>
-                    <img src={image} alt={name} className="shrink"/>
+                    <img src={image} alt={name} className="shrink" />
                 </Col>
                 <Col sm='1'>
-                    <br/>
+                    <br />
                     {name}
-                    <br/>
+                    <br />
                     {genre}
-                    <br/>
+                    <br />
                     {discription}
                 </Col>
 
