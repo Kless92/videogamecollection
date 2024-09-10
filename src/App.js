@@ -2,13 +2,21 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import HomePage from './pages/homePage';
 import NesPage from './pages/nintendo/nesPage';
+import NesDiscription from './features/Nintendo/nes/NesDiscription';
 import SnesPage from './pages/nintendo/snesPage';
+import SnesDiscription from './features/Nintendo/snes/SnesDiscription';
 import N64Page from './pages/nintendo/n64Page';
+import N64Discription from './features/Nintendo/n64/N64Discription';
 import GamecubePage from './pages/nintendo/gamecubePage';
+import GamecubeDiscription from './features/Nintendo/gamecube/GamecubeDiscription';
 import WiiPage from './pages/nintendo/wiiPage';
+import WiiDiscription from './features/Nintendo/wii/WiiDiscription';
 import WiiUPage from './pages/nintendo/wiiUPage';
+import WiiUDiscription from './features/Nintendo/wiiU/WiiUDiscription';
 import SwitchPage from './pages/nintendo/switchPage';
+import SwitchDiscription from './features/Nintendo/switch/SwitchDiscription';
 import Atari2600Page from './pages/atari/atari2600Page';
+import Atari26Discription from './features/Atari/Atari26Discription';
 import GenesisPage from './pages/sega/genesisPage';
 import DreamCastPage from './pages/sega/dreamcastPage';
 import PS1Page from './pages/sony/ps1Page';
@@ -17,14 +25,13 @@ import PS3Page from './pages/sony/ps3Page';
 import PS4Page from './pages/sony/ps4Page';
 import PS5Page from './pages/sony/ps5Page';
 import XboxPage from './pages/microsoft/xboxPage';
+import OriginalXboxDiscription from './features/Microsoft/originalXbox/OriginalXboxDiscription';
 import Xbox360Page from './pages/microsoft/xbox360Page';
+import Xbox360Discription from './features/Microsoft/xbox360/Xbox360Discription'
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Discription from './features/Display/Discription';
-import NesDiscription from './features/Nintendo/nes/NesDiscription';
-import SnesDiscription from './features/Nintendo/snes/SnesDiscription';
-import N64Discription from './features/Nintendo/n64/N64Discription';
-import GamecubeDiscription from './features/Nintendo/gamecube/GamecubeDiscription';
+
 function App() {
   return (
     <div className="App">
@@ -40,9 +47,13 @@ function App() {
         <Route path='gamecube' element={<GamecubePage />} />
         <Route path='gamecube/:gameId' element={<GamecubeDiscription/>}/>
         <Route path='wii' element={<WiiPage />} />
+        <Route path='wii/:gameId' element={<WiiDiscription/>}/>
         <Route path='wiiu' element={<WiiUPage />} />
+        <Route path='wiiu/:gameId' element={<WiiUDiscription/>}/>
         <Route path='switch' element={<SwitchPage />} />
+        <Route path='switch/:gameId' element={<SwitchDiscription/>}/>
         <Route path='atari2600' element={<Atari2600Page />} />
+        <Route path='atari2600/:gameId' element={<Atari26Discription/>}/>
         <Route path='gensis' element={<GenesisPage />} />
         <Route path='dreamcast' element={<DreamCastPage />} />
         <Route path='ps1' element={<PS1Page />} />
@@ -51,7 +62,9 @@ function App() {
         <Route path='ps4' element={<PS4Page />} />
         <Route path='ps5' element={<PS5Page />} />
         <Route path='xbox' element={<XboxPage />} />
+        <Route path='xbox/:gameId' element={<OriginalXboxDiscription/>}/>
         <Route path='xbox360' element={<Xbox360Page />} />
+        <Route path='xbox360/:gameId' element={<Xbox360Discription/>}/>
 
       </Routes>
       <Footer />

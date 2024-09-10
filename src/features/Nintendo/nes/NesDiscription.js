@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { selectNESById } from "../nes/nesSlice";
+import { selectNESById } from "./nesSlice";
 import Discription from "../../Display/Discription";
 
 const NesDiscription = () => {
