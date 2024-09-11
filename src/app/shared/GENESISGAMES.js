@@ -1,6 +1,6 @@
 import nintendoLogo from "../assets/images/Sega/genesis.webp";
 
-export const GAMECUBE = [
+export const GENESIS = [
     {
         id: 0,
         name: 'GameOne',

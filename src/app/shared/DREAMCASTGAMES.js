@@ -1,6 +1,6 @@
 import nintendoLogo from "../assets/images/Sega/dreamcast.png";
 
-export const GAMECUBE = [
+export const DREAMCAST = [
     {
         id: 0,
         name: 'GameOne',

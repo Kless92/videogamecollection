@@ -1,6 +1,6 @@
 import nintendoLogo from "../assets/images/Sony/ps4.png";
 
-export const GAMECUBE = [
+export const PLAYSTATION4 = [
     {
         id: 0,
         name: 'GameOne',

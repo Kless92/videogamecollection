@@ -18,12 +18,19 @@ import SwitchDiscription from './features/Nintendo/switch/SwitchDiscription';
 import Atari2600Page from './pages/atari/atari2600Page';
 import Atari26Discription from './features/Atari/Atari26Discription';
 import GenesisPage from './pages/sega/genesisPage';
+import GenesisDiscription from './features/Sega/genesis/GenesisDiscription';
 import DreamCastPage from './pages/sega/dreamcastPage';
+import DreamcastDiscription from './features/Sega/dreamcast/DreamcastDiscription';
 import PS1Page from './pages/sony/ps1Page';
+import Ps1Discription from './features/Sony/ps1/Ps1Discription';
 import PS2Page from './pages/sony/ps2Page';
+import Ps2Discription from './features/Sony/ps2/Ps2Discription';
 import PS3Page from './pages/sony/ps3Page';
+import Ps3Discription from './features/Sony/ps3/Ps3Discription';
 import PS4Page from './pages/sony/ps4Page';
+import Ps4Discription from './features/Sony/ps4/Ps4Discription';
 import PS5Page from './pages/sony/ps5Page';
+import Ps5Discription from './features/Sony/ps5/Ps5Discription';
 import XboxPage from './pages/microsoft/xboxPage';
 import OriginalXboxDiscription from './features/Microsoft/originalXbox/OriginalXboxDiscription';
 import Xbox360Page from './pages/microsoft/xbox360Page';
@@ -55,17 +62,23 @@ function App() {
         <Route path='atari2600' element={<Atari2600Page />} />
         <Route path='atari2600/:gameId' element={<Atari26Discription/>}/>
         <Route path='gensis' element={<GenesisPage />} />
+        <Route path='gensis/:gameId' element={<GenesisDiscription/>}/>
         <Route path='dreamcast' element={<DreamCastPage />} />
+        <Route path='dreamcast/:gameId' element={<DreamcastDiscription/>}/>
         <Route path='ps1' element={<PS1Page />} />
+        <Route path='ps1/:gameId' element={<Ps1Discription/>}/>
         <Route path='ps2' element={<PS2Page />} />
+        <Route path='ps2/:gameId' element={<Ps2Discription/>}/>
         <Route path='ps3' element={<PS3Page />} />
+        <Route path='ps3/:gameId' element={<Ps3Discription/>}/>
         <Route path='ps4' element={<PS4Page />} />
+        <Route path='ps4/:gameId' element={<Ps4Discription/>}/>
         <Route path='ps5' element={<PS5Page />} />
+        <Route path='ps5/:gameId' element={<Ps5Discription/>}/>
         <Route path='xbox' element={<XboxPage />} />
         <Route path='xbox/:gameId' element={<OriginalXboxDiscription/>}/>
         <Route path='xbox360' element={<Xbox360Page />} />
         <Route path='xbox360/:gameId' element={<Xbox360Discription/>}/>
-
       </Routes>
       <Footer />
     </div>
