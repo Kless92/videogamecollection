@@ -15,15 +15,13 @@ const Discription = ({ items }) => {
                 <Col sm='2'>
                     <img src={image} alt={name} className="shrink" />
                 </Col>
-                <Col sm='1'>
+                <Col sm='2' >
                     <br />
-                    {name}
-                    <br />
-                    {genre}
-                    <br />
-                    {discription}
+                    <a style={{fontSize: 30, display: 'flex', justifyContent: 'left'}}>{name}</a>
+                    <a style={{fontSize: 20, display: 'flex', justifyContent: 'left'}}>{genre}</a>
+                    <br/>
+                    {discription}                 
                 </Col>
-
             </Row>
         </Table>
     )

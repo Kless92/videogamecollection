@@ -65,6 +65,12 @@
   max-height: auto;
 }
 
+/*Discription Text keep underling text find a fix*/
+.text{
+  display: flex;
+  justify-content: left;
+}
+
 .outline{
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 1px;
