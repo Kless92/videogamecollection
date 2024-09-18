@@ -1,4 +1,4 @@
-import nintendoLogo from "../assets/images/Sega/dreamcast.png";
+import nintendoLogo from "../assets/images/Sega/dreamcast/dreamcast.png";
 
 export const DREAMCAST = [
     {

@@ -1,4 +1,4 @@
-import nintendoLogo from "../assets/images/Nintendo/snes.jpg";
+import nintendoLogo from "../assets/images/Nintendo/snes/snes.jpg";
 
 export const SNES = [
     {

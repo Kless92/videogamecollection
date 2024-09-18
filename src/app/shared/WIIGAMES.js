@@ -1,4 +1,4 @@
-import nintendoLogo from "../assets/images/Nintendo/wii.png";
+import nintendoLogo from "../assets/images/Nintendo/wii/wii.png";
 
 export const WII = [
     {

@@ -1,4 +1,4 @@
-import nintendoLogo from "../assets/images/Microsoft/Xbox360.png";
+import nintendoLogo from "../assets/images/Microsoft/xbox360/Xbox360.png";
 
 export const XBOX360 = [
     {

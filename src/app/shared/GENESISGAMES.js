@@ -1,4 +1,4 @@
-import nintendoLogo from "../assets/images/Sega/genesis.webp";
+import nintendoLogo from "../assets/images/Sega/gensesis/genesis.webp";
 
 export const GENESIS = [
     {

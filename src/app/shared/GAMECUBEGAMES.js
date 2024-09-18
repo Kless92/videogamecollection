@@ -1,4 +1,4 @@
-import nintendoLogo from "../assets/images/Nintendo/gamecube.jpg";
+import nintendoLogo from "../assets/images/Nintendo/gamecube/gamecube.jpg";
 
 export const GAMECUBE = [
     {

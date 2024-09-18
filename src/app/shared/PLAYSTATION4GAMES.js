@@ -1,4 +1,4 @@
-import nintendoLogo from "../assets/images/Sony/ps4.png";
+import nintendoLogo from "../assets/images/Sony/ps4/ps4.png";
 
 export const PLAYSTATION4 = [
     {

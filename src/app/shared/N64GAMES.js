@@ -1,4 +1,4 @@
-import nintendoLogo from "../assets/images/Nintendo/n64.png";
+import nintendoLogo from "../assets/images/Nintendo/n64/n64.png";
 
 export const N64 = [
     {

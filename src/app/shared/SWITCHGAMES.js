@@ -1,4 +1,4 @@
-import nintendoLogo from "../assets/images/Nintendo/switch.png";
+import nintendoLogo from "../assets/images/Nintendo/switch/switch.png";
 
 export const SWITCH = [
     {
