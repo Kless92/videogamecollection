@@ -69,4 +69,12 @@ export const N64 = [
         genre: 'Platformer',
         discription: 'Collect crystal shards and save many worlds form a new threat.'
     },
+    {
+        id: 6,
+        name: 'Mario Party 2',
+        image: marioParty2,
+        genre: 'Party Game',
+        discription: 'Play aginst friends in 6 theme boards in 62 diffrent mini games.'
+    },
+    
 ];
