@@ -2,7 +2,7 @@ import { Container } from "reactstrap";
 
 const HomePage = () => {
     return (
-        <Container>
+        <Container> 
             <h1>Welcome to my video game collection home page</h1>
         </Container>
     )
