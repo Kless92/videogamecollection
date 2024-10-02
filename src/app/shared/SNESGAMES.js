@@ -13,6 +13,7 @@ import k from "../assets/images/Nintendo/snes/snes_supermetroid.jpg";
 import l from "../assets/images/Nintendo/snes/snes_superreturnofthejedi.jpg";
 import m from "../assets/images/Nintendo/snes/snes_thelegendofzeldaalinktothepast.jpg";
 import n from "../assets/images/Nintendo/snes/snes_zombiesatemyneighbors.jpg";
+import o from "../assets/images/Nintendo/snes/snes_mortalkombatii_US.16331107981635400809.jpg"
 
 
 export const SNES = [
@@ -60,58 +61,65 @@ export const SNES = [
     },
     {
         id: 6,
+        name: 'Mortal Kombat II',
+        image: o,
+        genre: 'Fighting',
+        discription: 'Sequle to Mortal Kombat returns with new fighters, sages and fatalities.'
+    },
+    {
+        id: 7,
         name: 'Street Fighter II: Turbo',
         image: g,
         genre: 'Fighter',
         discription: 'The fourth edition to be released with new advancements.'
     },
     {
-        id: 7,
-        name: 'GameSix',
-        image: nintendoLogo,
-        genre: 'rpg',
-        discription: 'GRRRRREEEENNNNN'
-    },
-    {
         id: 8,
-        name: 'GameSix',
-        image: nintendoLogo,
-        genre: 'rpg',
-        discription: 'GRRRRREEEENNNNN'
+        name: 'Super Game Boy',
+        image: h,
+        genre: 'Accessory',
+        discription: 'Play Game Boy games on your Super Nintendo with custom background, color formates and many more.'
     },
     {
         id: 9,
-        name: 'GameSix',
-        image: nintendoLogo,
-        genre: 'rpg',
-        discription: 'GRRRRREEEENNNNN'
+        name: 'Super Mario All Stars',
+        image: i,
+        genre: 'Platformer',
+        discription: 'Four Mario games in one: Super Mairo Bros 1 2 & 3 inclueing the Lost Levels.'
     },
     {
         id: 10,
-        name: 'GameSix',
-        image: nintendoLogo,
-        genre: 'rpg',
-        discription: 'GRRRRREEEENNNNN'
+        name: 'Super Mario World',
+        image: j,
+        genre: 'Platformer',
+        discription: 'Mario must save Princess Toadstool in Dinosaur Land, includeing Yoshis friends.'
     },
     {
         id: 11,
-        name: 'GameSix',
-        image: nintendoLogo,
-        genre: 'rpg',
-        discription: 'GRRRRREEEENNNNN'
+        name: 'Super Metroid',
+        image: k,
+        genre: 'Action-Adventure',
+        discription: 'Samus returns to a familiar world to fight pirates and more.'
     },
     {
         id: 12,
-        name: 'GameSix',
-        image: nintendoLogo,
-        genre: 'rpg',
-        discription: 'GRRRRREEEENNNNN'
+        name: 'Super Return of the Jedi',
+        image: l,
+        genre: 'Adventure',
+        discription: 'The third Star Wars movie remade for the Super Nintdo as you play familiar location and characters.'
     },
     {
         id: 13,
-        name: 'GameSix',
-        image: nintendoLogo,
-        genre: 'rpg',
-        discription: 'GRRRRREEEENNNNN'
+        name: 'The Legend of Zelda: a Link to the Past',
+        image: m,
+        genre: 'Action-Adventure',
+        discription: 'Hyrule must be saved as you travle between the Light and Dark world.'
+    },
+    {
+        id: 14,
+        name: 'Zombies ate my Neighbors',
+        image: n,
+        genre: 'Shoot\'em Up',
+        discription: 'Save your neighbors from hords of zombies, ghouls and other creatures of the night.'
     }
 ];
