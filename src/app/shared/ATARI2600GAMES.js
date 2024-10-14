@@ -27,44 +27,57 @@ import x from "../assets/images/Atari/a2600_yarsrevenge.jpg"
 export const ATARI2600 = [
     {
         id: 0,
-        name: 'GameOne',
-        image: nintendoLogo,
-        genre: 'platformer',
-        discription: 'aaa'
+        name: 'Adventure',
+        image: a,
+        genre: 'Action-Adventure',
+        discription: 'Controll a square and navigate 30 room to recover the Enchanted Chalice.'
     },
     {
         id: 1,
-        name: 'GameTwo',
-        image: nintendoLogo,
-        genre: 'shooter',
-        discription: 'bbb'
+        name: 'Asteroids',
+        image: b,
+        genre: 'Shoot\'em Up',
+        discription: 'Shoot incoming asteroids.'
     },
     {
         id: 2,
-        name: 'GameThree',
-        image: nintendoLogo,
-        genre: 'rpg',
-        discription: 'ccc'      
+        name: 'Basketball',
+        image: c,
+        genre: 'Sports',
+        discription: 'Play one-on-one Basketball aginst the computer or a friend.'      
     },
     {
         id: 3,
-        name: 'GameFour',
-        image: nintendoLogo,
-        genre: 'puzzle',
-        discription: 'ddd'        
+        name: 'Berzerk',
+        image: d,
+        genre: 'Shoot\'em Up',
+        discription: 'Run across mazes and eliminate everyone enemy.'        
     },
     {
         id: 4,
-        name: 'GameFive',
-        image: nintendoLogo,
-        genre: 'platformer',
-        discription: 'eee'        
+        name: 'Breakout',
+        image: e,
+        genre: 'Action',
+        discription: 'Reflect the ball and clear the color wall.'        
     },
     {
         id: 5,
-        name: 'GameSix',
-        image: nintendoLogo,
-        genre: 'rpg',
-        discription: 'fff'        
+        name: 'Chopper Command',
+        image: f,
+        genre: 'Shoot\'em Up',
+        discription: 'Controll a chopper and destroy enemy jets or helicopter while protecting your convoy.'        
+    },
+    {
+        id: 6,
+        name: 'Circus Atari',
+        image: f,
+        genre: 'Action',
+        discription: 'Control a seesaw by launchign clown to pop all the ballons.'        
+    },    {
+        id: 7,
+        name: 'Combat',
+        image: g,
+        genre: 'Shooter',
+        discription: 'Two player take control of different vehicle and fight each other.'        
     },
 ];
