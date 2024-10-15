@@ -70,14 +70,127 @@ export const ATARI2600 = [
     {
         id: 6,
         name: 'Circus Atari',
-        image: f,
+        image: g,
         genre: 'Action',
         discription: 'Control a seesaw by launchign clown to pop all the ballons.'        
-    },    {
+    },    
+    {
         id: 7,
         name: 'Combat',
-        image: g,
+        image: h,
         genre: 'Shooter',
         discription: 'Two player take control of different vehicle and fight each other.'        
     },
+    {
+        id: 8,
+        name: 'Defender',
+        image: i,
+        genre: 'Shooter',
+        discription: 'Defend earth from space invaders.'        
+    },
+    {
+        id: 9,
+        name: 'Demon Attack',
+        image: j,
+        genre: 'Shoot\'em up',
+        discription: 'Two player take control of different vehicle and fight each other.'        
+    },
+    {
+        id: 10,
+        name: 'Demons to Diamonds',
+        image: k,
+        genre: 'Shooter',
+        discription: 'Shoot demons from the ground while there flying.'        
+    },
+    {
+        id: 11,
+        name: 'Football',
+        image: l,
+        genre: 'Sports',
+        discription: 'Three vs. three football on Atari 2600.'        
+    },
+    {
+        id: 12,
+        name: 'Frogger',
+        image: m,
+        genre: 'Action',
+        discription: 'Make it across the highway and the river with out getting ran over or drowning.'        
+    },
+    {
+        id: 13,
+        name: 'Kaboom',
+        image: n,
+        genre: 'Action',
+        discription: 'Capture bomb before they reach the bottom of the screen.'        
+    },
+    {
+        id: 14,
+        name: 'Missile Command',
+        image: o,
+        genre: 'Shoot\'em Up',
+        discription: 'Fire against incoming missiles before they reach their target.'        
+    },
+    {
+        id: 15,
+        name: 'Night Drive',
+        image: p,
+        genre: 'Racing',
+        discription: 'Drive around at night without crashing the side or oncoming cars.'        
+    },
+    {
+        id: 16,
+        name: 'Pac-Man',
+        image: q,
+        genre: 'Arcade',
+        discription: 'Eat all the pallets and avoid the ghots.'        
+    },
+    {
+        id: 17,
+        name: 'Pitfall',
+        image: r,
+        genre: 'Platformer',
+        discription: 'Swing vines and avoid pits and obstacle to find the treasure.'        
+    },
+    {
+        id: 18,
+        name: 'Q*bert',
+        image: s,
+        genre: 'Action',
+        discription: 'Touch all the platform into a different color and avoid hazards.'     
+    },
+    {
+        id: 19,
+        name: 'Space Invaders',
+        image: t,
+        genre: 'Shooter',
+        discription: 'Shoot all the aliens before they reach the end of the screen.'        
+    },
+    {
+        id: 20,
+        name: 'Star Wars: Death Star Battle',
+        image: u,
+        genre: 'Shoot\'em up',
+        discription: 'Reach and destory the Death Star.'        
+    },
+    {
+        id: 21,
+        name: 'Video Olympics',
+        image: v,
+        genre: 'Sports',
+        discription: 'Fifty games and variations from Basketball to Volleyball.'        
+    },
+    {
+        id: 22,
+        name: 'Warloards',
+        image: w,
+        genre: 'Action',
+        discription: 'Four knight attack the enemy castle and defend their own.'        
+    },
+    {
+        id: 23,
+        name: 'Yars Revenge',
+        image: x,
+        genre: 'Shooter',
+        discription: 'Destory the enemys sheild to destory them.'        
+    }
 ];
