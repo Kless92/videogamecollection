@@ -1,4 +1,3 @@
-import nintendoLogo from "../assets/images/Sony/ps1/ps1.png";
 import a from "../assets/images/Sony/ps1/ps1_castlevaniasymphonyofthenight.jpg"
 import b from "../assets/images/Sony/ps1/ps1_crashbandicoot.jpg"
 import c from "../assets/images/Sony/ps1/ps1_davemirrafreestylebmx.jpg"
