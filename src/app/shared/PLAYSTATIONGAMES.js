@@ -69,128 +69,128 @@ export const PLAYSTATION = [
     },
     {
         id: 6,
-        name: 'GameSix',
+        name: 'Metal Gear Solid',
         image: g,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Action-Adventure',
+        discription: 'Solid Snake infiltrate a island and stop FOXHOUND.'        
     },
     {
         id: 7,
-        name: 'GameSix',
+        name: 'Namco Museum Vol. 3',
         image: h,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Arcade',
+        discription: 'Six classic Namco Games in one disc.'        
     },
     {
         id: 8,
-        name: 'GameSix',
+        name: 'NBA Live 96',
         image: i,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Sport',
+        discription: 'First NBA utilizing Virtual Studium Tech and multiple camera angles.'        
     },
     {
         id: 9,
-        name: 'GameSix',
+        name: 'Rayman',
         image: j,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Platformer',
+        discription: 'Rayman must save his home from Mr. Dark who stole the Great Protoon.'        
     },
     {
         id: 10,
-        name: 'GameSix',
+        name: 'Resident Evil Director\'s Cut',
         image: k,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Survival  Horror',
+        discription: 'Re-release of the oringal Resident Evil with new difficulties and cosmetics.'        
     },
     {
         id: 11,
-        name: 'GameSix',
+        name: 'Resident Evil 3: Nemesis',
         image: l,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Survival  Horror',
+        discription: 'Jill Valentine must escape Raccoon city but something is haunting her.'        
     },
     {
         id: 12,
-        name: 'GameSix',
+        name: 'Rugrats Search for Reptar',
         image: m,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Platformer',
+        discription: 'Tommy and his friends must collect the rest of his Reptar jigsaw puzzle.'        
     },
     {
         id: 13,
-        name: 'GameSix',
+        name: 'Silent Hill',
         image: n,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Survival Horror',
+        discription: 'Harrys traped in Silent Hill and has to find his adopted aughter Cheryl.'        
     },
     {
         id: 14,
-        name: 'GameSix',
+        name: 'Spyro: The Dragon',
         image: o,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Platformer',
+        discription: 'Spyro must save his dragon kin and stop Gnasty Gnorc.'        
     },
     {
         id: 15,
-        name: 'GameSix',
+        name: 'Spyro 2: Ripto\'s Rage',
         image: p,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Platformer',
+        discription: 'Spyro return as hes summon to save Glimmer from Ripto'        
     },
     {
         id: 16,
-        name: 'GameSix',
+        name: 'Tomb Raider',
         image: q,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Action-Adventure',
+        discription: 'Lara Croft\'s first adventure as she collect artefacts leadign to somethign bigger.'        
     },
     {
         id: 17,
-        name: 'GameSix',
+        name: 'Tomb Raider 2',
         image: r,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Action-Adventure',
+        discription: 'Lara returns as she hunt for a magical dagger and fighting off a cult.'        
     },
     {
         id: 18,
-        name: 'GameSix',
+        name: 'Tomb Raider 3',
         image: s,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Action-Adventure',
+        discription: 'Lara third game has her hunter down artefacts for Dr. Willard, a scientist for RX-Tech.'        
     },
     {
         id: 19,
-        name: 'GameSix',
+        name: 'Tony Hawk\'s Pro Skater',
         image: t,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Sport',
+        discription: 'Tony\'s first video game, having the player pull off extreme moves.'        
     },
     {
         id: 20,
-        name: 'GameSix',
+        name: 'Tony Hawk\'s Pro Skater 2',
         image: u,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Sport',
+        discription: 'The sequle includes new playable character, coures, boards and more.'        
     },
     {
         id: 21,
-        name: 'GameSix',
+        name: 'Tony Hawk\'s Pro Skater 3',
         image: v,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Sport',
+        discription: 'Third in teh series with even more ways to shread.'        
     },
     {
         id: 22,
-        name: 'GameSix',
+        name: 'Toy Story 2: Buzz Lightyear to the Rescue',
         image: w,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Adventure',
+        discription: 'Tie-in to the movie Buzz must save wood before Andy gets home.'        
     },
     {
         id: 23,
-        name: 'GameSix',
+        name: 'WWF Smackd Down 2',
         image: x,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Sport',
+        discription: 'Wrest as your favorit pro, play aginst firends and show off to the crowed.'        
     }
 ];
