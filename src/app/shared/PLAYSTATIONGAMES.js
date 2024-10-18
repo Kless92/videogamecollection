@@ -27,45 +27,45 @@ import x from "../assets/images/Sony/ps1/ps1_wwfsmackdown2_eu.jpg"
 export const PLAYSTATION = [
     {
         id: 0,
-        name: 'GameOne',
+        name: 'Catlevania: Symphony of the Night',
         image: a,
-        genre: 'platformer',
-        discription: 'aaa'
+        genre: 'Action Role-Playing',
+        discription: 'Alucard return to Dracula\'s castle to stop a cult.'
     },
     {
         id: 1,
-        name: 'GameTwo',
+        name: 'Crash Bandicoot',
         image: b,
-        genre: 'shooter',
-        discription: 'bbb'
+        genre: 'Platformer',
+        discription: 'Save the world and Tawna from Doctor Neo Cortex.'
     },
     {
         id: 2,
-        name: 'GameThree',
+        name: 'Dave Mirra Freestyle BMX',
         image: c,
-        genre: 'rpg',
-        discription: 'ccc'      
+        genre: 'Sport',
+        discription: 'Ride your way though twelve levels in four diffrent game modes.'      
     },
     {
         id: 3,
-        name: 'GameFour',
+        name: 'ECW: Hardcor Revolution',
         image: d,
-        genre: 'puzzle',
-        discription: 'ddd'        
+        genre: 'Sport',
+        discription: 'Wrestl your way though the top in Extreme Championship Wretling.'        
     },
     {
         id: 4,
-        name: 'GameFive',
+        name: 'Final Fantasy VII',
         image: e,
-        genre: 'platformer',
-        discription: 'eee'        
+        genre: 'Roll-Playing Game',
+        discription: 'Enter Final Fantasy first 3D world as Cloud Strife as he and his friend try to save the world.'        
     },
     {
         id: 5,
-        name: 'GameSix',
+        name: 'Final Fantasy XI',
         image: f,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Roll-Playing Game',
+        discription: 'Return to a more Fantasy style game travling the world of Gaia.'        
     },
     {
         id: 6,
