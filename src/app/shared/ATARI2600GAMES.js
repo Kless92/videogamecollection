@@ -1,196 +1,195 @@
-import nintendoLogo from "../assets/images/Atari/atari2600.png";
-import a from "../assets/images/Atari/a2600_adventure.jpg"
-import b from "../assets/images/Atari/a2600_asteroids.jpg"
-import c from "../assets/images/Atari/a2600_basketball.jpg"
-import d from "../assets/images/Atari/a2600_berzerk.jpg"
-import e from "../assets/images/Atari/a2600_breakout.jpg"
-import f from "../assets/images/Atari/a2600_choppercommand.jpg"
-import g from "../assets/images/Atari/a2600_circusatari.jpg"
-import h from "../assets/images/Atari/a2600_combatvcs.jpg"
-import i from "../assets/images/Atari/a2600_defender.jpg"
-import j from "../assets/images/Atari/a2600_demonattack.jpg"
-import k from "../assets/images/Atari/a2600_demonstodiamonds.jpg"
-import l from "../assets/images/Atari/a2600_football.jpg"
-import m from "../assets/images/Atari/a2600_frogger.jpg"
-import n from "../assets/images/Atari/a2600_kaboom.jpg"
-import o from "../assets/images/Atari/a2600_missilecommand.jpg"
-import p from "../assets/images/Atari/a2600_nightdriver.jpg"
-import q from "../assets/images/Atari/a2600_pacmanvcs.jpg"
-import r from "../assets/images/Atari/a2600_pitfall.jpg"
-import s from "../assets/images/Atari/a2600_qbert.jpg"
-import t from "../assets/images/Atari/a2600_spaceinvaders.jpg"
-import u from "../assets/images/Atari/a2600_starwarsdeathstarbattle.jpg"
-import v from "../assets/images/Atari/a2600_videoolympics.jpg"
-import w from "../assets/images/Atari/a2600_warlords.jpg"
-import x from "../assets/images/Atari/a2600_yarsrevenge.jpg"
+import adventure from "../assets/images/Atari/a2600_adventure.jpg"
+import asteroids from "../assets/images/Atari/a2600_asteroids.jpg"
+import basketBall from "../assets/images/Atari/a2600_basketball.jpg"
+import berzerk from "../assets/images/Atari/a2600_berzerk.jpg"
+import breakOut from "../assets/images/Atari/a2600_breakout.jpg"
+import chopperCommand from "../assets/images/Atari/a2600_choppercommand.jpg"
+import circusAtari from "../assets/images/Atari/a2600_circusatari.jpg"
+import combat from "../assets/images/Atari/a2600_combatvcs.jpg"
+import defender from "../assets/images/Atari/a2600_defender.jpg"
+import demonAttack from "../assets/images/Atari/a2600_demonattack.jpg"
+import demonsToDiamonds from "../assets/images/Atari/a2600_demonstodiamonds.jpg"
+import footBall from "../assets/images/Atari/a2600_football.jpg"
+import frogger from "../assets/images/Atari/a2600_frogger.jpg"
+import kaboom from "../assets/images/Atari/a2600_kaboom.jpg"
+import missileCommand from "../assets/images/Atari/a2600_missilecommand.jpg"
+import nightDriver from "../assets/images/Atari/a2600_nightdriver.jpg"
+import pacMan from "../assets/images/Atari/a2600_pacmanvcs.jpg"
+import pitFall from "../assets/images/Atari/a2600_pitfall.jpg"
+import qBert from "../assets/images/Atari/a2600_qbert.jpg"
+import spaceInvaders from "../assets/images/Atari/a2600_spaceinvaders.jpg"
+import starWarsDeathStarBattle from "../assets/images/Atari/a2600_starwarsdeathstarbattle.jpg"
+import videoOlympics from "../assets/images/Atari/a2600_videoolympics.jpg"
+import warLoards from "../assets/images/Atari/a2600_warlords.jpg"
+import yarsrvenge from "../assets/images/Atari/a2600_yarsrevenge.jpg"
 
 export const ATARI2600 = [
     {
         id: 0,
         name: 'Adventure',
-        image: a,
+        image: adventure,
         genre: 'Action-Adventure',
         discription: 'Controll a square and navigate 30 room to recover the Enchanted Chalice.'
     },
     {
         id: 1,
         name: 'Asteroids',
-        image: b,
+        image: asteroids,
         genre: 'Shoot\'em Up',
         discription: 'Shoot incoming asteroids.'
     },
     {
         id: 2,
         name: 'Basketball',
-        image: c,
+        image: basketBall,
         genre: 'Sports',
-        discription: 'Play one-on-one Basketball aginst the computer or a friend.'      
+        discription: 'Play one-on-one Basketball aginst the computer or a friend.'
     },
     {
         id: 3,
         name: 'Berzerk',
-        image: d,
+        image: berzerk,
         genre: 'Shoot\'em Up',
-        discription: 'Run across mazes and eliminate everyone enemy.'        
+        discription: 'Run across mazes and eliminate everyone enemy.'
     },
     {
         id: 4,
         name: 'Breakout',
-        image: e,
+        image: breakOut,
         genre: 'Action',
-        discription: 'Reflect the ball and clear the color wall.'        
+        discription: 'Reflect the ball and clear the color wall.'
     },
     {
         id: 5,
         name: 'Chopper Command',
-        image: f,
+        image: chopperCommand,
         genre: 'Shoot\'em Up',
-        discription: 'Controll a chopper and destroy enemy jets or helicopter while protecting your convoy.'        
+        discription: 'Controll a chopper and destroy enemy jets or helicopter while protecting your convoy.'
     },
     {
         id: 6,
         name: 'Circus Atari',
-        image: g,
+        image: circusAtari,
         genre: 'Action',
-        discription: 'Control a seesaw by launchign clown to pop all the ballons.'        
-    },    
+        discription: 'Control a seesaw by launchign clown to pop all the ballons.'
+    },
     {
         id: 7,
         name: 'Combat',
-        image: h,
+        image: combat,
         genre: 'Shooter',
-        discription: 'Two player take control of different vehicle and fight each other.'        
+        discription: 'Two player take control of different vehicle and fight each other.'
     },
     {
         id: 8,
         name: 'Defender',
-        image: i,
+        image: defender,
         genre: 'Shooter',
-        discription: 'Defend earth from space invaders.'        
+        discription: 'Defend earth from space invaders.'
     },
     {
         id: 9,
         name: 'Demon Attack',
-        image: j,
+        image: demonAttack,
         genre: 'Shoot\'em up',
-        discription: 'Two player take control of different vehicle and fight each other.'        
+        discription: 'Two player take control of different vehicle and fight each other.'
     },
     {
         id: 10,
         name: 'Demons to Diamonds',
-        image: k,
+        image: demonsToDiamonds,
         genre: 'Shooter',
-        discription: 'Shoot demons from the ground while there flying.'        
+        discription: 'Shoot demons from the ground while there flying.'
     },
     {
         id: 11,
         name: 'Football',
-        image: l,
+        image: footBall,
         genre: 'Sports',
-        discription: 'Three vs. three football on Atari 2600.'        
+        discription: 'Three vs. three football on Atari 2600.'
     },
     {
         id: 12,
         name: 'Frogger',
-        image: m,
+        image: frogger,
         genre: 'Action',
-        discription: 'Make it across the highway and the river with out getting ran over or drowning.'        
+        discription: 'Make it across the highway and the river with out getting ran over or drowning.'
     },
     {
         id: 13,
         name: 'Kaboom',
-        image: n,
+        image: kaboom,
         genre: 'Action',
-        discription: 'Capture bomb before they reach the bottom of the screen.'        
+        discription: 'Capture bomb before they reach the bottom of the screen.'
     },
     {
         id: 14,
         name: 'Missile Command',
-        image: o,
+        image: missileCommand,
         genre: 'Shoot\'em Up',
-        discription: 'Fire against incoming missiles before they reach their target.'        
+        discription: 'Fire against incoming missiles before they reach their target.'
     },
     {
         id: 15,
         name: 'Night Drive',
-        image: p,
+        image: nightDriver,
         genre: 'Racing',
-        discription: 'Drive around at night without crashing the side or oncoming cars.'        
+        discription: 'Drive around at night without crashing the side or oncoming cars.'
     },
     {
         id: 16,
         name: 'Pac-Man',
-        image: q,
+        image: pacMan,
         genre: 'Arcade',
-        discription: 'Eat all the pallets and avoid the ghots.'        
+        discription: 'Eat all the pallets and avoid the ghots.'
     },
     {
         id: 17,
         name: 'Pitfall',
-        image: r,
+        image: pitFall,
         genre: 'Platformer',
-        discription: 'Swing vines and avoid pits and obstacle to find the treasure.'        
+        discription: 'Swing vines and avoid pits and obstacle to find the treasure.'
     },
     {
         id: 18,
         name: 'Q*bert',
-        image: s,
+        image: qBert,
         genre: 'Action',
-        discription: 'Touch all the platform into a different color and avoid hazards.'     
+        discription: 'Touch all the platform into a different color and avoid hazards.'
     },
     {
         id: 19,
         name: 'Space Invaders',
-        image: t,
+        image: spaceInvaders,
         genre: 'Shooter',
-        discription: 'Shoot all the aliens before they reach the end of the screen.'        
+        discription: 'Shoot all the aliens before they reach the end of the screen.'
     },
     {
         id: 20,
         name: 'Star Wars: Death Star Battle',
-        image: u,
+        image: starWarsDeathStarBattle,
         genre: 'Shoot\'em up',
-        discription: 'Reach and destory the Death Star.'        
+        discription: 'Reach and destory the Death Star.'
     },
     {
         id: 21,
         name: 'Video Olympics',
-        image: v,
+        image: videoOlympics,
         genre: 'Sports',
-        discription: 'Fifty games and variations from Basketball to Volleyball.'        
+        discription: 'Fifty games and variations from Basketball to Volleyball.'
     },
     {
         id: 22,
         name: 'Warloards',
-        image: w,
+        image: warLoards,
         genre: 'Action',
-        discription: 'Four knight attack the enemy castle and defend their own.'        
+        discription: 'Four knight attack the enemy castle and defend their own.'
     },
     {
         id: 23,
         name: 'Yars Revenge',
-        image: x,
+        image: yarsrvenge,
         genre: 'Shooter',
-        discription: 'Destory the enemys sheild to destory them.'        
+        discription: 'Destory the enemys sheild to destory them.'
     }
 ];
