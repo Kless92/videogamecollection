@@ -1,4 +1,3 @@
-import nintendoLogo from "../assets/images/Sony/ps3/ps3.png";
 import dantesInferno from "../assets/images/Sony/ps3/ps3_dantesinferno.jpg"
 import demonSouls from "../assets/images/Sony/ps3/ps3_demonssouls_3.jpg"
 import godOfWar3 from "../assets/images/Sony/ps3/ps3_godofwariii.jpg"
