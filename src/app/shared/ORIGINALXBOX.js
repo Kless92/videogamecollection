@@ -1,4 +1,4 @@
-import halo2 from "../assets/images/Microsoft/xbox_halo2.jpg";
+import halo2 from "../assets/images/Microsoft/originalXbox/xbox_halo2.jpg";
 
 export const XBOX = [
     {
