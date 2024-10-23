@@ -27,35 +27,105 @@ export const PLAYSTATION2 = [
         id: 1,
         name: 'God of War',
         image: godOfWar,
-        genre: 'shooter',
-        discription: 'bbb'
+        genre: 'Action-Adventure',
+        discription: 'Krados must kill the god of war, Ares, ride him self of his vision from the past.'
     },
     {
         id: 2,
         name: 'God of War 2',
         image: godOfWar2,
-        genre: 'rpg',
-        discription: 'ccc'      
+        genre: 'Action-Adventure',
+        discription: 'Krados must achieve his vengeance on the gods for their betraile.'      
     },
     {
         id: 3,
-        name: 'GameFour',
+        name: 'Grand Theft Auto 3',
         image: grandTheftAuto3,
-        genre: 'puzzle',
+        genre: 'Action-Adventure',
         discription: 'ddd'        
     },
     {
         id: 4,
         name: 'GameFive',
         image: grandTheftAutoSanAndreas,
-        genre: 'platformer',
+        genre: 'Action-Adventure',
         discription: 'eee'        
     },
     {
         id: 5,
         name: 'GameSix',
         image: grandTheftAutoViceCity,
+        genre: 'Action-Adventure',
+        discription: 'fff'        
+    },
+    {
+        id: 6,
+        name: 'Jack and Daxter the Precursor Legacy',
+        image: jakAndDaxter,
         genre: 'rpg',
         discription: 'fff'        
     },
+    {
+        id: 7,
+        name: 'Jak 2',
+        image: jak2,
+        genre: 'rpg',
+        discription: 'fff'        
+    },
+    {
+        id: 8,
+        name: 'Jak 3',
+        image: jak3,
+        genre: 'rpg',
+        discription: 'fff'        
+    },
+    {
+        id: 9,
+        name: 'Kingdom Hearts',
+        image: kingdomHearts,
+        genre: 'Action-Role Playing',
+        discription: 'fff'        
+    },
+    {
+        id: 10,
+        name: 'Kingdom Hearts 2',
+        image: kingdomHearts2,
+        genre: 'rpg',
+        discription: 'fff'        
+    },
+    {
+        id: 11,
+        name: 'Ratchet and Clank',
+        image: ratchetAndClank,
+        genre: 'rpg',
+        discription: 'fff'        
+    },
+    {
+        id: 12,
+        name: 'Ratchet and Clank 2: Locked and Loaded',
+        image: ratchetAndClank2,
+        genre: 'rpg',
+        discription: 'fff'        
+    },
+    {
+        id: 13,
+        name: 'Ratchet Dead Locked',
+        image: RatchetDeadLocked,
+        genre: 'rpg',
+        discription: 'fff'        
+    },
+    {
+        id: 14,
+        name: 'Silent Hill 2',
+        image: silentHill2,
+        genre: 'rpg',
+        discription: 'fff'        
+    },
+    {
+        id: 15,
+        name: 'Sly 2: Band of Thieves',
+        image: sly2,
+        genre: 'rpg',
+        discription: 'fff'        
+    }
 ];
