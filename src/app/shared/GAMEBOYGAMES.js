@@ -1,45 +1,50 @@
-import nintendoLogo from "../assets/images/Microsoft/xbox360/Xbox360.png";
+import drMario from "../assets/images/Nintendo/gameboy/gb_drmario.jpg"
+import kirbysDreamLand from "../assets/images/Nintendo/gameboy/gb_kirbysdreamland.jpg"
+import pokemonBlue from "../assets/images/Nintendo/gameboy/gb_pokemonblue.jpg"
+import pokemonRed from "../assets/images/Nintendo/gameboy/gb_pokemonred.jpg"
+import superMarioLand from "../assets/images/Nintendo/gameboy/gb_supermarioland.jpg"
+import tetris from "../assets/images/Nintendo/gameboy/gb_tetris_2.jpg"
 
 export const GAMEBOY = [
     {
         id: 0,
-        name: 'GameOne',
-        image: nintendoLogo,
+        name: 'Dr. Mario',
+        image: drMario,
         genre: 'platformer',
         discription: 'aaa'
     },
     {
         id: 1,
-        name: 'GameTwo',
-        image: nintendoLogo,
+        name: 'Kirbys Dream Land',
+        image: kirbysDreamLand,
         genre: 'shooter',
         discription: 'bbb'
     },
     {
         id: 2,
-        name: 'GameThree',
-        image: nintendoLogo,
+        name: 'Pokemon Red',
+        image: pokemonRed,
         genre: 'rpg',
         discription: 'ccc'      
     },
     {
         id: 3,
-        name: 'GameFour',
-        image: nintendoLogo,
+        name: 'Pokemon Blue',
+        image: pokemonBlue,
         genre: 'puzzle',
         discription: 'ddd'        
     },
     {
         id: 4,
-        name: 'GameFive',
-        image: nintendoLogo,
+        name: 'Super Mario Land',
+        image: superMarioLand,
         genre: 'platformer',
         discription: 'eee'        
     },
     {
         id: 5,
-        name: 'GameSix',
-        image: nintendoLogo,
+        name: 'Tetris',
+        image: tetris,
         genre: 'rpg',
         discription: 'fff'        
     }
