@@ -10,42 +10,42 @@ export const GAMEBOY = [
         id: 0,
         name: 'Dr. Mario',
         image: drMario,
-        genre: 'platformer',
-        discription: 'aaa'
+        genre: 'Puzzle',
+        discription: 'Kill some viruses in this port for Gameboy.'
     },
     {
         id: 1,
         name: 'Kirbys Dream Land',
         image: kirbysDreamLand,
-        genre: 'shooter',
-        discription: 'bbb'
+        genre: 'Action-Platformer',
+        discription: 'Kirby\'s first adventure to take back the stolen food from King Dedede.'
     },
     {
         id: 2,
         name: 'Pokemon Red',
         image: pokemonRed,
-        genre: 'rpg',
-        discription: 'ccc'      
+        genre: 'Role-Playing Game',
+        discription: 'The first generation of Pokemon, collect all 151'      
     },
     {
         id: 3,
         name: 'Pokemon Blue',
         image: pokemonBlue,
-        genre: 'puzzle',
-        discription: 'ddd'        
+        genre: 'Role-Playing Game',
+        discription: 'The first generation of Pokemon, collect all 151.'        
     },
     {
         id: 4,
         name: 'Super Mario Land',
         image: superMarioLand,
         genre: 'platformer',
-        discription: 'eee'        
+        discription: 'Mario travles to Sarasaland to save Princess Daisy in this Gameboy excusive.'        
     },
     {
         id: 5,
         name: 'Tetris',
         image: tetris,
-        genre: 'rpg',
-        discription: 'fff'        
+        genre: 'Puzzle',
+        discription: 'Fit all the piece and reach a high score at home or on the go.'        
     }
 ]

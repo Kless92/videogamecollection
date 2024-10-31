@@ -86,7 +86,7 @@ export const NES = [
         id: 7,
         name: 'Dragon Warriror',
         image: dragonWarrior,
-        genre: 'RPG',
+        genre: 'Role-Playing Game',
         discription: 'Save the land in this turn base RPG.'
     },
     {
