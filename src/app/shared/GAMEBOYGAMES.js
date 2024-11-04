@@ -25,14 +25,14 @@ export const GAMEBOY = [
         name: 'Pokemon Red',
         image: pokemonRed,
         genre: 'Role-Playing Game',
-        discription: 'The first generation of Pokemon, collect all 151'      
+        discription: 'The first generation of Pokemon, collect all 151 in the Kanto region.'      
     },
     {
         id: 3,
         name: 'Pokemon Blue',
         image: pokemonBlue,
         genre: 'Role-Playing Game',
-        discription: 'The first generation of Pokemon, collect all 151.'        
+        discription: 'The first generation of Pokemon, collect all 151 in the Kanto region.'        
     },
     {
         id: 4,

@@ -1,13 +1,13 @@
 import { useParams } from "react-router-dom";
-import { selectPs5ById } from "./Ps5Slice";
+import { selectNintendo3DSById } from "./Nintendo3dsSlices";
 import Discription from "../../Display/Discription";
 
-const Ps5Discription = () => {
+const Nintendo3dsDiscription = () => {
     const { gameId } = useParams();
-    const items = selectPs5ById(gameId);
+    const items = selectNintendo3DSById(gameId);
     return (
         <Discription items={items} />
     );
 };
 
-export default Ps5Discription;
+export default Nintendo3dsDiscription;

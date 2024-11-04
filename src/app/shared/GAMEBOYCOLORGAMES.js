@@ -7,37 +7,37 @@ import pokemonSilver from "../assets/images/Nintendo/gameboycolor/gbc_pokemonsil
 export const GAMEBOYCOLOR = [
     {
         id: 0,
-        name: 'Hary Potter and The Sorcerers Stone',
+        name: 'Harry Potter and The Sorcerers Stone',
         image: harryPotterSorcerersStone,
-        genre: 'platformer',
-        discription: 'aaa'
+        genre: 'Role-Playing Game',
+        discription: 'The GameBoy Color port of Harry Potter first year at Hogwarts.'
     },
     {
         id: 1,
         name: 'The Legend of Zelda: Links Awakening DX',
         image: ZeldaLinksAwakeningDX,
-        genre: 'shooter',
-        discription: 'bbb'
+        genre: 'Action-Adventure',
+        discription: 'Link awakens on a strange island, Koholint, after a storm and must find a way off.'
     },
     {
         id: 2,
         name: 'The Legend of Zelda: Oracle of Ages',
         image: zeldaOracleOfAges,
-        genre: 'rpg',
-        discription: 'ccc'
+        genre: 'Action-Adventure',
+        discription: 'Link must save Nayru, the past and present from Gueen Ambi.'
     },
     {
         id: 3,
         name: 'The Legend of Zelda: Oracle of Seasons',
         image: ZeldaOracleOfSeasons,
-        genre: 'puzzle',
-        discription: 'ddd'
+        genre: 'Action-Adventure',
+        discription: 'Link must save Din and the land were the seasons are changeing rapidly rom Onox.'
     },
     {
         id: 4,
         name: 'Pokemon Silver',
         image: pokemonSilver,
-        genre: 'platformer',
-        discription: 'eee'
+        genre: 'Role-Playing Game',
+        discription: 'Generation Two were you explore the Johto reagon and find new pokemon.'
     },
 ]

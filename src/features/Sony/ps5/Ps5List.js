@@ -1,4 +1,4 @@
-import { selectAll } from "./ps5Slice";
+import { selectAll } from "./Ps5Slice";
 import { Col, Row, Table } from "reactstrap";
 import GameDisplay from "../../Display/GameDisplay";
 

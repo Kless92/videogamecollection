@@ -84,7 +84,41 @@ const Header = () => {
                                 </NavLink>
                             </NavItem>
                         </Row>
-
+                        <Row>{/*GameBoy*/}
+                            <NavItem>
+                                <NavLink to='gameboy'>
+                                    <i className='fa fa-home fa-lg' /> GameBoy
+                                </NavLink>
+                            </NavItem>
+                        </Row>
+                        <Row>{/*GameBoyColor*/}
+                            <NavItem>
+                                <NavLink to='gameboycolor'>
+                                    <i className='fa fa-home fa-lg' /> GameBoyColor
+                                </NavLink>
+                            </NavItem>
+                        </Row>
+                        <Row>{/*GameBoyAdvance*/}
+                            <NavItem>
+                                <NavLink to='gameboyadvance'>
+                                    <i className='fa fa-home fa-lg' /> GameBoyAdvance
+                                </NavLink>
+                            </NavItem>
+                        </Row>
+                        <Row>{/*NintendoDS*/}
+                            <NavItem>
+                                <NavLink to='nintendods'>
+                                    <i className='fa fa-home fa-lg' /> NintendoDS
+                                </NavLink>
+                            </NavItem>
+                        </Row>
+                        <Row>{/*Nintendo3DS*/}
+                            <NavItem>
+                                <NavLink to='nintendo3ds'>
+                                    <i className='fa fa-home fa-lg' /> Nintendo3DS
+                                </NavLink>
+                            </NavItem>
+                        </Row>
                     </Nav>
                 </Collapse>
                 <Collapse isOpen={atariOpen} navbar>
@@ -148,6 +182,13 @@ const Header = () => {
                             </NavLink>
                         </NavItem>
                     </Row>
+                    <Row>{/*Play Station Portable*/}
+                        <NavItem>
+                            <NavLink to='psp'>
+                                <i className='fa fa-home fa-lg' /> Play Station Portable
+                            </NavLink>
+                        </NavItem>
+                    </Row>
                 </Collapse>
                 <Collapse isOpen={xBoxOpen} navba>
                     <Row>{/*Original Xbox*/}
@@ -165,7 +206,6 @@ const Header = () => {
                         </NavItem>
                     </Row>
                 </Collapse>
-                
             </Col>
         </Navbar>
     );
