@@ -36,13 +36,6 @@ const Header = () => {
 
                 <Collapse isOpen={nintendoOpen} navbar>
                     <Nav navbar>
-                        <Row> {/*Home Page*/}
-                            <NavItem>
-                                <NavLink to='/'>
-                                    <i className='fa fa-home fa-lg' /> Home
-                                </NavLink>
-                            </NavItem>
-                        </Row>
                         <Row> {/*NES*/}
                             <NavItem>
                                 <NavLink to='nes'>
