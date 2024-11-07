@@ -46,7 +46,9 @@ import PspDiscription from './features/Sony/psp/PspDiscription';
 import XboxPage from './pages/microsoft/xboxPage';
 import OriginalXboxDiscription from './features/Microsoft/originalXbox/OriginalXboxDiscription';
 import Xbox360Page from './pages/microsoft/xbox360Page';
-import Xbox360Discription from './features/Microsoft/xbox360/Xbox360Discription'
+import Xbox360Discription from './features/Microsoft/xbox360/Xbox360Discription';
+import CdromPage from './pages/Mis/cdromPage';
+import CdromDiscription from './features/Mis/CdromDiscription';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -102,6 +104,8 @@ function App() {
         <Route path='xbox/:gameId' element={<OriginalXboxDiscription/>}/>
         <Route path='xbox360' element={<Xbox360Page />} />
         <Route path='xbox360/:gameId' element={<Xbox360Discription/>}/>
+        <Route path='cdrom' element={<CdromPage />} />
+        <Route path='cdrom/:gameId' element={<CdromDiscription/>}/>
       </Routes>
       <Footer />
     </div>

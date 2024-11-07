@@ -8,6 +8,7 @@ const Header = () => {
     const [segaOpen, setSegaOpen] = useState(false);
     const [playStationOpen, setPlayStationOpen] = useState(false);
     const [xBoxOpen, setXBoxOpen] = useState(false);
+    const [misOpen, setMisOpen] = useState(false);
     return(
         <Navbar dark color='danger'  >
             <Col >
@@ -16,15 +17,22 @@ const Header = () => {
                 </NavbarBrand>
                 {/*Template*/}
                 <Button className='butt' onClick={() => {setAtariOpen(!atariOpen); setNintendoOpen(false); setSegaOpen(false); 
-                                        setPlayStationOpen(false); setXBoxOpen(false)}}>Atari</Button>
+                                        setPlayStationOpen(false); setXBoxOpen(false); setMisOpen(false)}}>Atari</Button>
+
                 <Button className='butt' onClick={() => {setNintendoOpen(!nintendoOpen); setAtariOpen(false); setSegaOpen(false); 
-                                        setPlayStationOpen(false); setXBoxOpen(false)}}>Nintendo</Button>
+                                        setPlayStationOpen(false); setXBoxOpen(false); setMisOpen(false)}}>Nintendo</Button>
+
                 <Button className='butt' onClick={() => {setSegaOpen(!segaOpen); setAtariOpen(false); setNintendoOpen(false); 
-                                        setPlayStationOpen(false); setXBoxOpen(false)}}>Sega</Button>
+                                        setPlayStationOpen(false); setXBoxOpen(false); setMisOpen(false)}}>Sega</Button>
+
                 <Button className='butt' onClick={() => {setPlayStationOpen(!playStationOpen); setAtariOpen(false); setNintendoOpen(false); 
-                                        setSegaOpen(false); setXBoxOpen(false)}}>Play Station</Button>
+                                        setSegaOpen(false); setXBoxOpen(false); setMisOpen(false)}}>Play Station</Button>
+
                 <Button className='butt' onClick={() => {setXBoxOpen(!xBoxOpen); setAtariOpen(false); setNintendoOpen(false); 
-                                        setSegaOpen(false); setPlayStationOpen(false)}}>Xbox</Button>
+                                        setSegaOpen(false); setPlayStationOpen(false); setMisOpen(false)}}>Xbox</Button>
+
+                <Button className='butt' onClick={() => {setMisOpen(!misOpen); setAtariOpen(false); setNintendoOpen(false); 
+                                        setSegaOpen(false); setPlayStationOpen(false); setXBoxOpen(false)}}>Mis.</Button>
 
                 <Collapse isOpen={nintendoOpen} navbar>
                     <Nav navbar>
@@ -202,6 +210,15 @@ const Header = () => {
                         <NavItem>
                             <NavLink to='xbox360'>
                                 <i className='fa fa-home fa-lg' /> Xbox 360
+                            </NavLink>
+                        </NavItem>
+                    </Row>
+                </Collapse>
+                <Collapse isOpen={misOpen} navba>
+                <Row>{/*CDROMs*/}
+                        <NavItem>
+                            <NavLink to='cdrom'>
+                                <i className='fa fa-home fa-lg' /> CDROM
                             </NavLink>
                         </NavItem>
                     </Row>

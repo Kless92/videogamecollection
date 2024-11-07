@@ -1,12 +1,12 @@
 import { Container } from "reactstrap";
-
-const GameboyadvancePage = () => {
+import CdromList from "../../features/Mis/CdromList";
+const CdromPage = () => {
     return (
         <Container>
             <h1>PC Games on CDROM Collection</h1>
-
+            <CdromList/>
         </Container>
     )
 }
 
-export default GameboyadvancePage;
+export default CdromPage;
