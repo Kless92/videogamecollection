@@ -71,6 +71,10 @@
   justify-content: left;
 }
 
+.test{
+  border: 10px solid black;
+}
+
 .outline{
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 1px;
