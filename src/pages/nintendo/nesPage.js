@@ -1,6 +1,6 @@
 import { Container } from "reactstrap";
 import NesList from "../../features/Nintendo/nes/NesList";
-import nes from "../../app/assets/images/Nintendo/nes/nes.png"
+import nes from "../../app/assets/images/Nintendo/nes/nes.jpg"
 
 const NesPage = () => {
     return (

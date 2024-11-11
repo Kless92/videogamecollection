@@ -4,10 +4,12 @@ import snes from "../../app/assets/images/Nintendo/snes/snes.jpg";
 
 const SnesPage = () => {
     return (
-        <Container style={{backgroundImage: `url(${snes})`}}>
-            <h1>Super Nintendo Collection</h1>
-            <SnesList/>
-        </Container>
+        <div style={{backgroundImage: `url(${snes})`}}>
+            <Container>
+                <h1>Super Nintendo Collection</h1>
+                <SnesList/>
+            </Container>
+        </div>
     )
 };
 
