@@ -4,10 +4,12 @@ import nes from "../../app/assets/images/Nintendo/nes/nes.jpg"
 
 const NesPage = () => {
     return (
-        <Container style={{backgroundImage: `url(${nes})`}}>
-            <h1>Nintendo Entertainment System Collection</h1>
-            <NesList />
-        </Container>
+        <div style={{backgroundImage: `url(${nes})`}}>
+            <Container >
+                <h1>Nintendo Entertainment System Collection</h1>
+                <NesList />
+            </Container>
+        </div>
     )
 };
 

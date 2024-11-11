@@ -4,10 +4,12 @@ import wii from "../../app/assets/images/Nintendo/wii/wii.png"
 
 const WiiPage = () => {
     return (
-        <Container style={{backgroundImage: `url(${wii})`}}> 
-            <h1>Nintendo Wii Collection</h1>
-            <WiiList/>
-        </Container>
+        <div style={{backgroundImage: `url(${wii})`}}>
+            <Container> 
+                <h1>Nintendo Wii Collection</h1>
+                <WiiList/>
+            </Container>
+        </div>
     )
 };
 
