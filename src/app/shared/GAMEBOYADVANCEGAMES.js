@@ -2,7 +2,7 @@ import donkeyKongCountry from "../assets/images/Nintendo/gameboyadvance/gba_donk
 import donkeyKongCountry3 from "../assets/images/Nintendo/gameboyadvance/gba_donkeykongcountry3.jpg"
 import kingdomHeartsChainOfMemories from "../assets/images/Nintendo/gameboyadvance/gba_kingdomheartschainofmemories.jpg"
 import legendOfZelda from "../assets/images/Nintendo/gameboyadvance/gba_legendofzelda.jpg"
-import zeldaLinkToThePast from "../assets/images/Nintendo/gameboyadvance/gba_legendofzeldaalinktothepast.jpgg"
+import zeldaLinkToThePast from "../assets/images/Nintendo/gameboyadvance/gba_legendofzeldaalinktothepast.jpg"
 import zeldaMinishCap from "../assets/images/Nintendo/gameboyadvance/gba_legendofzeldatheminishcap.jpg"
 import marioAndLuigiSuperStarSaga from "../assets/images/Nintendo/gameboyadvance/gba_marioandluigisuperstarsaga.jpg"
 import metroidZeroMission from "../assets/images/Nintendo/gameboyadvance/gba_metroidzeromission.jpg"
