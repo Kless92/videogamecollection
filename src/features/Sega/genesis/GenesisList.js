@@ -5,7 +5,6 @@ import GameDisplay from "../../Display/GameDisplay";
 const GenesisList = () => {
     const a = selectAll();
     return (
-        <Table>
             <Col>
                 <Row xs={12} sm={12} md={3} lg={3}>
                     {a.map((b) => {
@@ -17,7 +16,6 @@ const GenesisList = () => {
                     })}
                 </Row>
             </Col>
-        </Table>
     )
 };
 

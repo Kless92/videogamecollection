@@ -1,4 +1,3 @@
-import nintendoLogo from "../assets/images/Microsoft/xbox360/Xbox360.png";
 import diableBattleChest from "../assets/images/CDROM/win_diable_battlechest.jpg"
 import lordOfTheRingFellowshipOfTheRing from "../assets/images/CDROM/win_lordoftheringsthefellowshipofthering.jpg"
 import starcraftBattleChest from "../assets/images/CDROM/win_starcraft_battlechest.jpg"
