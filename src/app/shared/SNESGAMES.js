@@ -74,48 +74,41 @@ export const SNES = [
     },
     {
         id: 8,
-        name: 'Super Game Boy',
-        image: superGameBoy,
-        genre: 'Accessory',
-        discription: 'Play Game Boy games on your Super Nintendo with custom background, color formates and many more.'
-    },
-    {
-        id: 9,
         name: 'Super Mario All Stars',
         image: superMarioAllStars,
         genre: 'Platformer',
         discription: 'Four Mario games in one: Super Mairo Bros 1 2 & 3 inclueing the Lost Levels.'
     },
     {
-        id: 10,
+        id: 9,
         name: 'Super Mario World',
         image: superMarioWorld,
         genre: 'Platformer',
         discription: 'Mario must save Princess Toadstool in Dinosaur Land, includeing Yoshis friends.'
     },
     {
-        id: 11,
+        id: 10,
         name: 'Super Metroid',
         image: superMetroid,
         genre: 'Action-Adventure',
         discription: 'Samus returns to a familiar world to fight pirates and more.'
     },
     {
-        id: 12,
+        id: 11,
         name: 'Super Return of the Jedi',
         image: superReturnOfTheJedi,
         genre: 'Adventure',
         discription: 'The third Star Wars movie remade for the Super Nintdo as you play familiar location and characters.'
     },
     {
-        id: 13,
+        id: 12,
         name: 'The Legend of Zelda: a Link to the Past',
         image: legendOfZeldaALinkToThePast,
         genre: 'Action-Adventure',
         discription: 'Hyrule must be saved as you travle between the Light and Dark world.'
     },
     {
-        id: 14,
+        id: 13,
         name: 'Zombies ate my Neighbors',
         image: zombiesAteMyNeighbors,
         genre: 'Shoot\'em Up',

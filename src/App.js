@@ -25,6 +25,8 @@ import NintendodsPage from './pages/nintendo/nintendodsPage';
 import NintendodsDiscription from './features/Nintendo/nintendods/NintendodsDiscription';
 import Nintendo3dsPage from './pages/nintendo/nintendo3dsPage';
 import Nintendo3dsDiscription from './features/Nintendo/nintendo3ds/Nintendo3dsDiscription';
+import NintendoAccessoreisPage from './pages/nintendo/nintendoAccessoriesPage';
+import NintendoAccessoriesDiscription from "./features/Nintendo/nintendoaccessories/NintendoAccessoriesDiscription";
 import Atari2600Page from './pages/atari/atari2600Page';
 import Atari26Discription from './features/Atari/Atari26Discription';
 import GenesisPage from './pages/sega/genesisPage';
@@ -82,6 +84,8 @@ function App() {
         <Route path='nintendods/:gameId' element={<NintendodsDiscription/>}/>
         <Route path='nintendo3ds' element={<Nintendo3dsPage/>}/>
         <Route path='nintendo3ds/:gameId' element={<Nintendo3dsDiscription/>}/>
+        <Route path='nintendoaccessories' element={<NintendoAccessoreisPage/>}/>
+        <Route path='nintendoaccessories/:gameId' element={<NintendoAccessoriesDiscription/>}/>
         <Route path='atari2600' element={<Atari2600Page />} />
         <Route path='atari2600/:gameId' element={<Atari26Discription/>}/>
         <Route path='gensis' element={<GenesisPage />} />

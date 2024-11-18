@@ -120,6 +120,13 @@ const Header = () => {
                                 </NavLink>
                             </NavItem>
                         </Row>
+                        <Row>{/*NintendoAccessories*/}
+                            <NavItem>
+                                <NavLink to='nintendoaccessories'>
+                                    <i className='fa fa-home fa-lg' /> Nintendo Accessories
+                                </NavLink>
+                            </NavItem>
+                        </Row>
                     </Nav>
                 </Collapse>
                 <Collapse isOpen={atariOpen} navbar>
