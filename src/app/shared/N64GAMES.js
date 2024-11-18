@@ -18,7 +18,7 @@ import superSmashBros from "../assets/images/Nintendo/n64/n64_supersmashbros.jpg
 import majorasMask from "../assets/images/Nintendo/n64/n64_thelegendofzeldamajorasmask.jpg";
 import ocarinaOfTime from "../assets/images/Nintendo/n64/n64_thelegendofzeldaocarinaoftime.jpg";
 import yoshisStory from "../assets/images/Nintendo/n64/n64_yoshisstory.jpg";
-
+import wcwvsnWo from "../assets/images/Nintendo/n64/n64_wcwvsnwoworldtour.jpg";
 export const N64 = [
     {
         id: 0,
@@ -155,10 +155,16 @@ export const N64 = [
     },
     {
         id: 19,
+        name: 'WCW vs. NWO World Tour',
+        image: wcwvsnWo,
+        genre: 'Sports',
+        discription: 'World Championship Wrestling fight aginst New World Order in this THQ wrestling game.'
+    },
+    {
+        id: 20,
         name: 'Yoshis Story',
         image: yoshisStory,
         genre: 'Platformer',
         discription: 'The yoshis must stop Baby Bowser and save there home island.'
-    }
-    
+    }    
 ];
