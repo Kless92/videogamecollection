@@ -1,10 +1,10 @@
 import { Container } from "reactstrap";
 import NintendoAccessoriesList from "../../features/Nintendo/nintendoaccessories/NintendoAccessoriesList"
-import threeDS from "../../app/assets/images/Nintendo/3ds/3ds.jpg"
+import accessories from "../../app/assets/images/nintendoLogo.png"
 
 const NintendoAccessoreisPage = () => {
     return (
-        <div style={{backgroundImage: `url(${threeDS})`}}>
+        <div style={{backgroundImage: `url(${accessories})`}}>
             <Container>
                 <h1>Nintendo Accessories  Collection</h1>
                 <NintendoAccessoriesList/>

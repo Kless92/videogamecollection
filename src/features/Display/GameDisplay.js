@@ -5,7 +5,7 @@ import { NavLink, Route, Routes, Link } from 'react-router-dom';
 const GameDisplay = ({items}) => {
     const { id, name, image, genre } = items;
     return (
-        <Table style={{background:'white'}}>
+        <Table>
             <Col className="test">
                 <Link to={`${id}`} >
                     <img src={image} alt={name} className="shrink"/>
