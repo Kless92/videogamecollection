@@ -7,7 +7,7 @@ const NesPage = () => {
     return (
         <div style={{backgroundImage: `url(${nes})`}}>
             <img className="test" src={nesImage} alt={'File Missing'} 
-            style={{marginTop:'25px', marginBottom:'20px'}}/>
+            style={{marginTop:'25px', marginBottom:'20px', width:'55%'}}/>
             <Container >
                 <NesList />
             </Container>

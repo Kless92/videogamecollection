@@ -6,7 +6,7 @@ const NintendodsList = () => {
     const a = selectAll();
     return (
         <Col>
-            <Row xs={12} sm={12} md={3} lg={3}>
+            <Row xs={3} sm={12} md={3} lg={3}>
                 {a.map((b) => {
                     return (
                         <Col>

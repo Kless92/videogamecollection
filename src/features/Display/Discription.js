@@ -8,9 +8,8 @@ const Discription = ({ items }) => {
     const { name, image, genre, discription } = items
 
     return (
-
-        <Table>
-            <Row>
+        <div className="test">
+            <Row >
                 <Col sm='4' />
                 <Col sm='2'>
                     <img src={image} alt={name} className="shrink" />
@@ -23,7 +22,7 @@ const Discription = ({ items }) => {
                     {discription}                 
                 </Col>
             </Row>
-        </Table>
+        </div>
     )
 };
 

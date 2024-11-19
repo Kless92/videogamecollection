@@ -1,5 +1,5 @@
-import { Col, Row, Table } from "reactstrap";
-import { NavLink, Route, Routes, Link } from 'react-router-dom';
+import { Col, Table } from "reactstrap";
+import { Link } from 'react-router-dom';
 
 
 const GameDisplay = ({items}) => {
