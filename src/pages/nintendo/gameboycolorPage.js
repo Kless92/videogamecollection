@@ -7,7 +7,7 @@ const GameboycolorPage = () => {
     return (
         <div style={{backgroundImage: `url(${gameBoyColor})`}}>
             <img className="test" src={gameBoyColorImage} alt={'File Missing'} 
-            style={{marginTop:'25px', marginBottom:'20px', width:'35%'}}/>
+            style={{marginTop:'25px', marginBottom:'20px', width:'35%', padding:"10px"}}/>
             <Container>
                 <GameboycolorList />
             </Container>

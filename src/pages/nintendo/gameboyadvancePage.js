@@ -7,7 +7,7 @@ const GameboyadvancePage = () => {
     return (
         <div style={{backgroundImage: `url(${gameBoyAdvance})`}}>
                 <img className="test" src={gameBoyAdvImage} alt={'File Missing'} 
-                style={{marginTop:'25px', marginBottom:'20px', width:'50%'}} />
+                style={{marginTop:'25px', marginBottom:'20px', width:'50%', padding:"10px"}} />
             <Container>
                 <GameboyadvanceList/>
             </Container>

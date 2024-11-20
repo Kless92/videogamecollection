@@ -6,7 +6,7 @@ const WiiUPage = () => {
     return (
         <div style={{backgroundImage: `url(${wiiU})`}}>
             <img className="test" src={wiiUImage} alt={'File Missing'} 
-            style={{marginTop:'25px', marginBottom:'20px', width:'55%'}}/>
+            style={{marginTop:'25px', marginBottom:'20px', width:'55%', padding:"10px", padding:"10px"}}/>
             <Container>
                 <WiiUList/>
             </Container>

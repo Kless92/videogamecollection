@@ -7,7 +7,7 @@ const N64Page = () => {
     return (
         <div style={{backgroundImage: `url(${n64})`}}>
             <img className="test" src={n64Image} alt={'File Missing'} 
-            style={{marginTop:'25px', marginBottom:'20px',  width:'55%'}}/>
+            style={{marginTop:'25px', marginBottom:'20px',  width:'55%', padding:"10px"}}/>
             <Container>
                 <N64List/>
             </Container>

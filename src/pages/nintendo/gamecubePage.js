@@ -7,7 +7,7 @@ const gamecubePage = () => {
     return (
         <div style={{backgroundImage: `url(${gc})`}}>
             <img className="test" src={gameCubeImage} alt={'File Missing'} 
-            style={{marginTop:'25px', marginBottom:'20px', width:'55%'}}/>
+            style={{marginTop:'25px', marginBottom:'20px', width:'55%', padding:"10px"}}/>
             <Container> 
                 <GamecubeList/>
             </Container>

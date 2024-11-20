@@ -7,7 +7,7 @@ const Atari2600Page = () => {
     return (
         <div style={{backgroundImage: `url(${atari2600})`}}>
                 <img className="test" src={atari2600Image} alt={'File Missing'} 
-                style={{marginTop:'25px', marginBottom:'20px', width:'50%'}} />
+                style={{marginTop:'25px', marginBottom:'20px', width:'50%', padding:"10px"}} />
             <Container>
                 <Atari26List/>
             </Container>

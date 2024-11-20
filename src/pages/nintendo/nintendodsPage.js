@@ -7,7 +7,7 @@ const NintendodsPage = () => {
     return (
         <div style={{backgroundImage: `url(${dS})`}}>
             <img className="test" src={nintendoDSImage} alt={'File Missing'} 
-            style={{marginTop:'25px', marginBottom:'20px', width:'55%'}} />
+            style={{marginTop:'25px', marginBottom:'20px', width:'55%', padding:"10px"}} />
             <Container>
                 <NintendodsList/>
             </Container>

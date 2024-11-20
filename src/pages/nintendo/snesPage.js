@@ -7,7 +7,7 @@ const SnesPage = () => {
     return (
         <div style={{backgroundImage: `url(${snes})`}}>
             <img className="test" src={snesImage} alt={'File Missing'} 
-            style={{marginTop:'25px', marginBottom:'20px', width:'55%'}}/>
+            style={{marginTop:'25px', marginBottom:'20px', width:'55%', padding:"10px"}}/>
             <Container>
                 <SnesList/>
             </Container>

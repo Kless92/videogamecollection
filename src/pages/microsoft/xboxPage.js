@@ -7,7 +7,7 @@ const XboxPage = () => {
     return (
         <div style={{backgroundImage: `url(${originalXbox})`}}>
             <img className="test" src={originalxboxImage} alt={'File Missing'} 
-            style={{marginTop:'25px', marginBottom:'20px', width:'50%'}} />
+            style={{marginTop:'25px', marginBottom:'20px', width:'50%', padding:"10px"}} />
             <Container>
                 <OriginalXboxList/>
             </Container>

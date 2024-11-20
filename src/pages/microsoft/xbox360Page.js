@@ -7,7 +7,7 @@ const Xbox360Page = () => {
     return (
         <div style={{backgroundImage: `url(${xbox360})`}}>
             <img className="test" src={xbox360Image} alt={'File Missing'} 
-            style={{marginTop:'25px', marginBottom:'20px', width:'50%'}} />
+            style={{marginTop:'25px', marginBottom:'20px', width:'50%', padding:"10px"}} />
             <Container>
                 <Xbox360List/>
             </Container>
