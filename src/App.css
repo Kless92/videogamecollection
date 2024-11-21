@@ -72,6 +72,7 @@
 }
 
 .test{
+  margin-top: 10px;
   border: 10px solid black;
   background-color: white;
 }
