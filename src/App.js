@@ -57,7 +57,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header/>
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='nes' element={<NesPage />} />
@@ -111,7 +111,7 @@ function App() {
         <Route path='cdrom' element={<CdromPage />} />
         <Route path='cdrom/:gameId' element={<CdromDiscription/>}/>
       </Routes>
-      <Footer />
+      <Footer/>
     </div>
   );
 }

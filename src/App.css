@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -47,11 +50,10 @@
   align-items: center;
   justify-content: center;
 }
+
 /*Footer*/
-.snapFooter{
-  position: relative;
-  left: 0;
-  bottom: 0;
+.Footer{
+  margin-top: auto;
 }
 
 /*Screen Content 'still exparmental'*/

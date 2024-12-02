@@ -1,13 +1,11 @@
-import { Navbar, NavbarBrand, Button, NavItem, Nav, Row } from "reactstrap";
+import { Navbar, Button, NavItem, Nav, Row } from "reactstrap";
 import { NavLink, useNavigate } from 'react-router-dom';
-
 
 const Footer = () => {
     let history = useNavigate();
 
     return(
-        <Navbar dark color='primary' className="snapFooter">
-
+        <Navbar dark color='primary' className="Footer">
             <Nav style={{margin:'auto'}} navbar>
                 <Row> {/*Home Page*/}
                     <NavItem>
