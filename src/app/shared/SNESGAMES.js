@@ -5,7 +5,6 @@ import goofTroop from "../assets/images/Nintendo/snes/snes_gooftroop.jpg";
 import gradius3 from "../assets/images/Nintendo/snes/snes_gradius3.jpg";
 import megaManX from "../assets/images/Nintendo/snes/snes_megamanx.jpg";
 import streetFighter2Turbo from "../assets/images/Nintendo/snes/snes_streetfighteriiturbo.jpg";
-import superGameBoy from "../assets/images/Nintendo/snes/snes_supergameboy_US.1634097593146777238.jpg";
 import superMarioAllStars from "../assets/images/Nintendo/snes/snes_supermarioallstars_US.16319127801837786814.jpg";
 import superMarioWorld from "../assets/images/Nintendo/snes/snes_supermarioworld.jpg";
 import superMetroid from "../assets/images/Nintendo/snes/snes_supermetroid.jpg";
