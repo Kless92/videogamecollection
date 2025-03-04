@@ -6,6 +6,7 @@ import MarioParty7 from "../assets/images/Nintendo/gamecube/gc_marioparty7.jpg"
 import MetroidPrime from "../assets/images/Nintendo/gamecube/gc_metroidprime.jpg"
 import MetroidPrime2 from "../assets/images/Nintendo/gamecube/gc_metroidprime2echoes.jpg"
 import Pikmin from "../assets/images/Nintendo/gamecube/gc_pikmin.jpg"
+import Pikmin2 from "../assets/images/Nintendo/gamecube/gc_pikmin2.jpg"
 import RE1 from "../assets/images/Nintendo/gamecube/gc_residentevil.jpg"
 import RE0 from "../assets/images/Nintendo/gamecube/gc_residentevil_zero.jpg"
 import RE2 from "../assets/images/Nintendo/gamecube/gc_residentevil2.jpg"
@@ -69,52 +70,59 @@ export const GAMECUBE = [
         name: 'Pikmin',
         image: Pikmin,
         genre: 'Real-time Strategy, Action Adventure',
-        discription: 'Collect pieces of your ship from your little friends.'
+        discription: 'Collect pieces of your ship within 30 days, with the help of you new little friends.'
     },
     {
         id: 8,
+        name: 'Pikmin 2',
+        image: Pikmin2,
+        genre: 'Real-time Strategy, Action Adventure',
+        discription: 'Olimar returns with his co worker Louie to collect treasure for his boss with the help of old and new Pikmin.'
+    },
+    {
+        id: 9,
         name: 'Resident Evil',
         image: RE1,
         genre: 'Survival Horror',
         discription: 'Remake of the PS1 hit. Returning to the Spencers Mansion and face aginst zombies and mosters.'
     },
     {
-        id: 9,
+        id: 10,
         name: 'Resident Evil: 0',
         image: RE0,
         genre: 'Survival Horror',
         discription: 'Play the event the transpire before the events in Resident Evil.'
     },
     {
-        id: 10,
+        id: 11,
         name: 'Resident Evil: 2',
         image: RE2,
         genre: 'Survival Horror',
         discription: 'Port of the PS1 version. Play Leon or Clear in the own stories surviving Raccon Citys infection.'
     },
     {
-        id: 11,
+        id: 12,
         name: 'Resident Evil: 4',
         image: RE4,
         genre: 'Survival Horror',
         discription: 'Leon Kennedy travles to Europe to save the President daughter for a infectious cult.'
     },
     {
-        id: 12,
+        id: 13,
         name: 'Soul Calibur 2',
         image: SoulCalibur2,
         genre: 'Fighting',
         discription: 'One on one fights with character fromt the previous title, with Link from Legend of Zelda as an exclusive playable character.'
     },
     {
-        id: 13,
+        id: 14,
         name: 'Super Mario: Sun Shine',
         image: SunShine,
         genre: 'Platformer',
         discription: 'Marios newest adventure in Isle Delfino'
     },
     {
-        id: 14,
+        id: 15,
         name: 'Super Smash Bros: Melee',
         image: SSBmelee,
         genre: 'Fighting',

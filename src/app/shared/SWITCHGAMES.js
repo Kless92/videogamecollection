@@ -2,6 +2,8 @@ import crashTrilogy from "../assets/images/Nintendo/switch/nintendo_switch.crash
 import ffxii from "../assets/images/Nintendo/switch/nintendo_switch.finalfantasyxiithezodiacage.jpg";
 import zeldaBOTW from "../assets/images/Nintendo/switch/nintendo_switch.legendofzeldabreathofthewild.jpg";
 import zeldaTOTK from "../assets/images/Nintendo/switch/nintendo_switch.legendofzeldatearsofthekingdomthe_US.16888410521241815663.jpg";
+import zeldaEoW from "../assets/images/Nintendo/switch/switch_legendofzeldaechoesofwisdomthe.jpg";
+import zeldaLAw from "../assets/images/Nintendo/switch/switch_legendofzeldalinksawakening.jpg";
 import luigisMansion3 from "../assets/images/Nintendo/switch/nintendo_switch.luigismansion3_US.1637706730907733872.jpg";
 import megaMan11 from "../assets/images/Nintendo/switch/nintendo_switch.megaman11_.1689671181200428452.jpg";
 import metroidDread from "../assets/images/Nintendo/switch//nintendo_switch.metroiddread_US.164041622196300850.jpg";
@@ -42,55 +44,69 @@ export const SWITCH = [
     },
     {
         id: 4,
+        name: 'The Legend of Zelda: Link\'s Awakening',
+        image: zeldaLAw,
+        genre: 'Action-Adventure',
+        discription: 'This remake of the GameBoy classic returns you to Koholint Island in a new art style and dungeon builder.'
+    },
+    {
+        id: 5,
+        name: 'The Legend of Zelda: Echos of Wisdom',
+        image: zeldaEoW,
+        genre: 'Action-Adventure',
+        discription: 'Save the land of Hyrule as Princess Zelda with the help of echoes.'
+    },
+    {
+        id: 6,
         name: 'Luigis Mansion 3',
         image: luigisMansion3,
         genre: 'Action-Adventure',
         discription: 'Luigi must save Mario, Peach and friends against ghost in a haunted hotel.'
     },
     {
-        id: 5,
+        id: 7,
         name: 'Mega Man 11',
         image: megaMan11,
         genre: 'Shooter',
         discription: 'Mega Man return to stop Dr. Wily using the new Double Gear System.'
     },
     {
-        id: 7,
+        id: 8,
         name: 'Metroid Dread',
         image: metroidDread,
         genre: 'Action-Adventure',
         discription: 'Samus is sent to ZDR to investigate the disappearance of the EMMI.'
     },
     {
-        id: 8,
+        id: 9,
         name: 'New Super Mario Bros. U Dexluxe',
         image: newSuperMarioBrosDexluxe,
         genre: '2.5D Platformer',
         discription: 'Mario and friends return as a port of this WiiU title.'
     },
     {
-        id: 9,
+        id: 10,
         name: 'Splatoon 2',
         image: splatoon2,
         genre: 'Thrid Person Shooter',
         discription: 'The sequle to the WiiU mutiplayer shooter is now on switch with a single player campgin and more.'
     },
     {
-        id: 10,
+        id: 11,
         name: 'Super Mario 3D All Stars',
         image: superMario3DAllStars,
         genre: '3D Platformer',
         discription: 'Super Mario 64, Sunshine and Galaxy is ported for a limited time to the switch.'
     },
     {
-        id: 11,
+        id: 12,
         name: 'Super Mario Maker 2',
         image: superMarioMaker2,
         genre: 'Platformer',
         discription: 'Sequle to Mario Maker now on swtich with new features for more unique levels to make.'
     },
     {
-        id: 12,
+        id: 13,
         name: 'Super Smash Bros Ultimate',
         image: superSmashBrosUltimate,
         genre: 'Fighter',
