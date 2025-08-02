@@ -30,7 +30,8 @@ import tecmoSuperBowl from "../assets/images/Nintendo/nes/nes_tecmosuperbowl.jpg
 import teenageMutantNinjaTurtles from "../assets/images/Nintendo/nes/nes_teenagemutantninjaturtles_US.1710048272596910426.jpg"
 import tetris2 from "../assets/images/Nintendo/nes/nes_tetris2.jpg"
 import worldClassTrackMeet from "../assets/images/Nintendo/nes/nes_world-class-track-meet.jpg"
-
+import shadowGate from "../assets/images/Nintendo/nes/nes_shadowgate.jpg"
+import smashTV from "../assets/images/Nintendo/nes/nes_smashtv.jpg"
 
 export const NES = [
     {
@@ -207,51 +208,64 @@ export const NES = [
         image: superC,
         genre: 'Shoot\'em Up',
         discription: 'The shoot\'em up classic returns in this sequel.'
+    },    {
+        id: 25,
+        name: 'Shadow Gate',
+        image: shadowGate,
+        genre: 'Point-an-Click/ Adventure',
+        discription: 'Navigate Castle Shadow Gate and prevent the Warlock Lord from summoning Behemoth out of Hell.'
     },
     {
-        id: 25,
+        id: 26,
+        name: 'Smash TV',
+        image: smashTV,
+        genre: 'Arcade',
+        discription: 'One or Two player in a dystopia Live TV show as they shoot up enemy in diffrent rooms.'
+    },
+    {
+        id: 27,
         name: 'Super Mario Bros.',
         image: superMarioBros,
         genre: 'Platformer',
         discription: 'Mario\'s first adventure to save Princess Toadstool from King Koopa.'
     },
     {
-        id: 26,
+        id: 28,
         name: 'Super Mario Bros. 2',
         image: superMarioBros2,
         genre: 'Platformer',
         discription: 'Mario reutrn with 3 of his friends to save dreamland from Wart.'
     },
     {
-        id: 27,
+        id: 29,
         name: 'Super Mario Bros. 3',
         image: superMarioBros3,
         genre: 'Platformer',
         discription: 'Mario\'s off to save Princess Toadstool and the seven kings from King Koopa and his children.'
     },
     {
-        id: 28,
+        id: 30,
         name: 'Tecmo Super Bowl',
         image: tecmoSuperBowl,
         genre: 'Sports',
         discription: 'Get ready for some football in this NES classic.'
     },
     {
-        id: 29,
+        id: 31,
         name: 'Teenage Mutant Ninja Turtles',
         image: teenageMutantNinjaTurtles,
         genre: 'Platformer',
         discription: 'The Turtles are off to save April and retieve the Life Transformer Gun to turn Splinter back to a humanbeing.'
     },
     {
-        id: 30,
+        id: 32,
         name: 'Tetris 2',
         image: tetris2,
         genre: 'Puzzle',
         discription: 'Sequel to the classic puzzle game but with new game modes.'
     },
     {
-        id: 31,
+        id: 33,
         name: 'World Class Track Meet',
         image: worldClassTrackMeet,
         genre: 'Sports',

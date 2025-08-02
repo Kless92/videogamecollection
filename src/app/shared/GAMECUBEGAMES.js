@@ -14,6 +14,7 @@ import RE4 from "../assets/images/Nintendo/gamecube/gc_residentevil4.jpg"
 import SoulCalibur2 from "../assets/images/Nintendo/gamecube/gc_soulcalibur2_eu.jpg"
 import SunShine from "../assets/images/Nintendo/gamecube/gc_supermariosunshine.jpg"
 import SSBmelee from "../assets/images/Nintendo/gamecube/gc_supersmashbrothersmelee.jpg"
+import luigisMansion from "../assets/images/Nintendo/gamecube/gc_luigismansion_2.jpg"
 
 export const GAMECUBE = [
     {
@@ -36,93 +37,100 @@ export const GAMECUBE = [
         image: WindWaker,
         genre: 'Action Adventure',
         discription: 'Sail the high seas and uncover the secrets below.'
-    },
+    },    
     {
         id: 3,
+        name: 'Luigi\'s Mansion',
+        image: luigisMansion,
+        genre: 'Action Adventure',
+        discription: 'Enter a haunted mansion to save Mario while captureing ghost.'
+    },
+    {
+        id: 4,
         name: 'Mario Kart: Double Dash',
         image: MarioKartDouble,
         genre: 'Raceing',
         discription: 'Race 16 differnt cources aginst 9 drivers; each with a co-pilot.'
     },
     {
-        id: 4,
+        id: 5,
         name: 'Mario Party 7',
         image: MarioParty7,
         genre: 'Party Video Games',
         discription: 'The seventh installment of the Mario Party series.'
     },
     {
-        id: 5,
+        id: 6,
         name: 'Metroid Prime',
         image: MetroidPrime,
         genre: 'FPS, Platformer',
         discription: 'The first First Person Shooter Metriod game; explore a new world while uncover power ups and secrets.'
     },
     {
-        id: 6,
+        id: 7,
         name: 'Metroid Prime 2',
         image: MetroidPrime2,
         genre: 'FPS, Platformer',
         discription: 'The sequal the Metroid prime; uncovering new items though exploration.'
     },
     {
-        id: 7,
+        id: 8,
         name: 'Pikmin',
         image: Pikmin,
         genre: 'Real-time Strategy, Action Adventure',
         discription: 'Collect pieces of your ship within 30 days, with the help of you new little friends.'
     },
     {
-        id: 8,
+        id: 9,
         name: 'Pikmin 2',
         image: Pikmin2,
         genre: 'Real-time Strategy, Action Adventure',
         discription: 'Olimar returns with his co worker Louie to collect treasure for his boss with the help of old and new Pikmin.'
     },
     {
-        id: 9,
+        id: 10,
         name: 'Resident Evil',
         image: RE1,
         genre: 'Survival Horror',
         discription: 'Remake of the PS1 hit. Returning to the Spencers Mansion and face aginst zombies and mosters.'
     },
     {
-        id: 10,
+        id: 11,
         name: 'Resident Evil: 0',
         image: RE0,
         genre: 'Survival Horror',
         discription: 'Play the event the transpire before the events in Resident Evil.'
     },
     {
-        id: 11,
+        id: 12,
         name: 'Resident Evil: 2',
         image: RE2,
         genre: 'Survival Horror',
         discription: 'Port of the PS1 version. Play Leon or Clear in the own stories surviving Raccon Citys infection.'
     },
     {
-        id: 12,
+        id: 13,
         name: 'Resident Evil: 4',
         image: RE4,
         genre: 'Survival Horror',
         discription: 'Leon Kennedy travles to Europe to save the President daughter for a infectious cult.'
     },
     {
-        id: 13,
+        id: 14,
         name: 'Soul Calibur 2',
         image: SoulCalibur2,
         genre: 'Fighting',
         discription: 'One on one fights with character fromt the previous title, with Link from Legend of Zelda as an exclusive playable character.'
     },
     {
-        id: 14,
+        id: 15,
         name: 'Super Mario: Sun Shine',
         image: SunShine,
         genre: 'Platformer',
         discription: 'Marios newest adventure in Isle Delfino'
     },
     {
-        id: 15,
+        id: 16,
         name: 'Super Smash Bros: Melee',
         image: SSBmelee,
         genre: 'Fighting',

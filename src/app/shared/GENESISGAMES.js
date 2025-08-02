@@ -9,6 +9,7 @@ import sonicTheHedgeHog2 from "../assets/images/Sega/gensesis/genesis_sonicthehe
 import sonicTheHedgeHog3 from "../assets/images/Sega/gensesis/genesis_sonicthehedgehog3.jpg"
 import toeJamAndEarl from "../assets/images/Sega/gensesis/genesis_toejamandearl_2.jpg"
 import xMen2ColoneWars from "../assets/images/Sega/gensesis/genesis_xmen2clonewars.jpg"
+import tmntTournamentFighter from "../assets/images/Sega/gensesis/genesis_tmnttournamentfighters.jpg"
 
 export const GENESIS = [
     {
@@ -80,9 +81,16 @@ export const GENESIS = [
         image: toeJamAndEarl,
         genre: 'Platformer',
         discription: 'These two crash on earth and now have to find your ship pieces.'
-    },
+    },    
     {
         id: 10,
+        name: 'Teenage Mutant Ninja Turtles: Tournament Fighter',
+        image: tmntTournamentFighter,
+        genre: 'Fighting',
+        discription: 'Play the turtles and 4 others to save splinter from crane and evil clones of themselves.'
+    },
+    {
+        id: 11,
         name: 'X-Men 2: Clone Wars',
         image: xMen2ColoneWars,
         genre: 'Platformer',
