@@ -12,7 +12,7 @@ import superReturnOfTheJedi from "../assets/images/Nintendo/snes/snes_superretur
 import legendOfZeldaALinkToThePast from "../assets/images/Nintendo/snes/snes_thelegendofzeldaalinktothepast.jpg";
 import zombiesAteMyNeighbors from "../assets/images/Nintendo/snes/snes_zombiesatemyneighbors.jpg";
 import mortalKombat2 from "../assets/images/Nintendo/snes/snes_mortalkombatii_US.16331107981635400809.jpg"
-
+import mmpr from "../assets/images/Nintendo/snes/snes_mightymorphinpowerrangers.jpg"
 
 export const SNES = [
     {
@@ -59,55 +59,62 @@ export const SNES = [
     },
     {
         id: 6,
-        name: 'Mortal Kombat II',
+        name: 'Mortal Kombat 2',
         image: mortalKombat2,
         genre: 'Fighting',
         discription: 'Sequle to Mortal Kombat returns with new fighters, sages and fatalities.'
     },
     {
         id: 7,
+        name: 'Mighty Morphin Power Rangers ',
+        image: mmpr,
+        genre: 'Beatum Up',
+        discription: 'Five Teenagers with attitude fight against reads repulsa as the Mighty Morphin Power Rangers.'
+    },
+    {
+        id: 8,
         name: 'Street Fighter II: Turbo',
         image: streetFighter2Turbo,
         genre: 'Fighter',
         discription: 'The fourth edition to be released with new advancements.'
     },
     {
-        id: 8,
+        id: 9,
         name: 'Super Mario All Stars',
         image: superMarioAllStars,
         genre: 'Platformer',
         discription: 'Four Mario games in one: Super Mairo Bros 1 2 & 3 inclueing the Lost Levels.'
     },
     {
-        id: 9,
+        id: 10,
         name: 'Super Mario World',
         image: superMarioWorld,
         genre: 'Platformer',
         discription: 'Mario must save Princess Toadstool in Dinosaur Land, includeing Yoshis friends.'
     },
     {
-        id: 10,
+        id: 11,
         name: 'Super Metroid',
         image: superMetroid,
         genre: 'Action-Adventure',
         discription: 'Samus returns to a familiar world to fight pirates and more.'
     },
     {
-        id: 11,
+        id: 12,
         name: 'Super Return of the Jedi',
         image: superReturnOfTheJedi,
         genre: 'Adventure',
         discription: 'The third Star Wars movie remade for the Super Nintdo as you play familiar location and characters.'
     },
     {
-        id: 12,
+        id: 13,
         name: 'The Legend of Zelda: a Link to the Past',
         image: legendOfZeldaALinkToThePast,
         genre: 'Action-Adventure',
         discription: 'Hyrule must be saved as you travle between the Light and Dark world.'
     },
     {
-        id: 13,
+        id: 14,
         name: 'Zombies ate my Neighbors',
         image: zombiesAteMyNeighbors,
         genre: 'Shoot\'em Up',

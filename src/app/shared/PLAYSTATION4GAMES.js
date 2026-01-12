@@ -2,31 +2,38 @@ import gOW18 from "../assets/images/Sony/ps4/ps4_godofwar_2018.jpg";
 import horizonZeroDawn from "../assets/images/Sony/ps4/ps4_horizonzerodawn.jpg";
 import lastOfUsRemastered from "../assets/images/Sony/ps4/ps4_lastofusremastered.jpg";
 import marvelsSpiderman from "../assets/images/Sony/ps4/ps4_marvels_spiderman.jpg";
-
+import ff15 from "../assets/images/Sony/ps4/ps4_finalfantasyxv.jpg"
 export const PLAYSTATION4 = [
     {
         id: 0,
+        name: 'Final Fantasy XV',
+        image: ff15,
+        genre: 'RPG',
+        discription: 'The 15th main line installment of "Final Fantasy" were 4 brothers go on a road trip.'
+    },
+    {
+        id: 1,
         name: 'God of War 2018',
         image: gOW18,
         genre: 'Action-Adventure',
         discription: 'Kratos returns with his son, Atreus, as they travle to fullfulid Krato\'s late wife last wish.'
     },
     {
-        id: 1,
+        id: 2,
         name: 'Horizon Zero Dawn',
         image: horizonZeroDawn,
         genre: 'Action Role-Playing',
         discription: 'Humanity returns to a primitive state as an apocalyptic event left the world runes and mechanical machines roaming the world.'
     },
     {
-        id: 2,
+        id: 3,
         name: 'Last of Us: Remastered',
         image: lastOfUsRemastered,
         genre: 'Action-Adventure',
         discription: 'The critically acclaimed game, remade for the ps4, follow Jole and Ellies trip across America after a global pandemic.'
     },
     {
-        id: 3,
+        id: 4,
         name: 'Marvels Spiderman',
         image: marvelsSpiderman,
         genre: 'Action-Adventure',
